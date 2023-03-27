@@ -22,7 +22,7 @@ import 'aos/dist/aos.css';
 
 const Home = () => {
   useEffect(() => {
-    Aos.init({ duration: 400 });
+    Aos.init({ duration: 400, easing: 'ease-in-out-cubic' });
   }, []);
 
   return (

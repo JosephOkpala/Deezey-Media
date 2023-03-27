@@ -48,6 +48,10 @@ nav {
   cursor: pointer;
 }
 
+.navlinks ul a {
+  text-decoration: none;
+}
+
 .navlinks ul li:not(:last-child) {
   margin-right: 3.5rem;
 }

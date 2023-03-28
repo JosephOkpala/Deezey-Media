@@ -76,7 +76,7 @@ nav {
 /*        home page styles        */
 
 .home-page {
-  height: 50vh;
+  height: 87vh;
   width: 90%;
   max-width: 1600px;
   margin: 0 auto;
@@ -238,9 +238,9 @@ nav {
     display: block;
   }
 
-  .home-page {
+  /* .home-page {
     height: 60vh;
-  }
+  } */
 
   .home-page h1 {
     font-size: 2.5rem;
@@ -249,7 +249,7 @@ nav {
   }
 
   .home-page div {
-    margin-top: 3rem;
+    margin-top: 4rem;
   }
 
   .each-services-grid {

@@ -439,14 +439,27 @@ const App = () => {
       </div>
       <div className="services-page" ref={services}>
         <div className="services-header">
-          <h1>Services</h1>
+          <motion.h1
+            initial={{ y: 40 }}
+            whileInView={{ y: 0 }}
+            transition={{ type: 'spring' }}
+            viewport={{ once: true }}
+          >
+            Services
+          </motion.h1>
           <p>
             Whether you have a new startup or an established business we are
             here to help.
           </p>
         </div>
         <div className="each-services-grid">
-          <div className="each-service mg brand-service max-width">
+          <motion.div
+            initial={{ y: 100 }}
+            whileInView={{ y: 0 }}
+            transition={{ type: 'spring' }}
+            viewport={{ once: true }}
+            className="each-service mg brand-service max-width"
+          >
             <h4>Branding</h4>
             <p>
               At the core of every brand lies the building blocks to a great
@@ -461,16 +474,28 @@ const App = () => {
               <li>Logo creation and brand assets </li>
               <li>Personal branding</li>
             </ul>
-          </div>
-          <div className="each-service mg brandstrategy-service max-width">
+          </motion.div>
+          <motion.div
+            initial={{ y: 100 }}
+            whileInView={{ y: 0 }}
+            transition={{ type: 'spring', delay: 0.2 }}
+            viewport={{ once: true }}
+            className="each-service mg brandstrategy-service max-width"
+          >
             <h4>Brand strategy and consultation</h4>
             <p>
               Whether you are a startup looking to launch into the market or a
               50-year-old legacy company, we are open to strategizing on ways to
               reach your desired audience and achieve your marketing goals.
             </p>
-          </div>
-          <div className="each-service mg webdesign-service max-width">
+          </motion.div>
+          <motion.div
+            initial={{ y: 100 }}
+            whileInView={{ y: 0 }}
+            transition={{ type: 'spring', delay: 0.3 }}
+            viewport={{ once: true }}
+            className="each-service mg webdesign-service max-width"
+          >
             <h4>Web design</h4>
             <p>
               Our web design services are tailored to create visually stunning
@@ -484,8 +509,14 @@ const App = () => {
               <li>Frontend development</li>
               <li>Backend development</li>
             </ul>
-          </div>
-          <div className="each-service mg marketing-service max-width">
+          </motion.div>
+          <motion.div
+            initial={{ y: 100 }}
+            whileInView={{ y: 0 }}
+            transition={{ type: 'spring', delay: 0.3 }}
+            viewport={{ once: true }}
+            className="each-service mg marketing-service max-width"
+          >
             <h4>Digital marketing</h4>
             <p>
               A sum total of our service offering is delivering the best value
@@ -500,8 +531,14 @@ const App = () => {
               <li>Ads</li>
               <li>Influencer marketing</li>
             </ul>
-          </div>
-          <div className="each-service mg contentcreation-service max-width">
+          </motion.div>
+          <motion.div
+            initial={{ y: 100 }}
+            whileInView={{ y: 0 }}
+            transition={{ type: 'spring', delay: 0.4 }}
+            viewport={{ once: true }}
+            className="each-service mg contentcreation-service max-width"
+          >
             <h4>Content Creation</h4>
             <p>
               No matter the scale and content type, we are the right partners to
@@ -511,8 +548,14 @@ const App = () => {
               <li>Graphics design</li>
               <li>Content writing</li>
             </ul>
-          </div>
-          <div className="each-service mg podcast-service max-width">
+          </motion.div>
+          <motion.div
+            initial={{ y: 100 }}
+            whileInView={{ y: 0 }}
+            transition={{ type: 'spring', delay: 0.5 }}
+            viewport={{ once: true }}
+            className="each-service mg podcast-service max-width"
+          >
             <h4>Podcast</h4>
             <p>
               As audio and video content continues to sip into our daily lives,
@@ -522,7 +565,7 @@ const App = () => {
             <ul>
               <li>In-house podcast production</li>
             </ul>
-          </div>
+          </motion.div>
         </div>
       </div>
       <div className="clients-page">

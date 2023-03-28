@@ -190,8 +190,16 @@ nav {
   margin-bottom: 1rem;
 }
 
+.each-service ul li {
+  list-style: none;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 0.3rem;
+}
+
 .each-service ul li:not(:last-child) {
-  margin-bottom: 0.5rem;
+  margin: 0 0.7rem 0.7rem 0;
 }
 
 .mg {
@@ -212,7 +220,6 @@ nav {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid red; */
 }
 
 .clients-page img {

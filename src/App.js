@@ -569,54 +569,54 @@ const App = () => {
         </div>
       </div>
       <div className="clients-page">
-        <div>
-          <img src={threeline} alt="3line logo" id="width" />
-        </div>
-        <div>
-          <img src={afrodriods} alt="afrodroids logo" id="width" />
-        </div>
-        <div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+          <img src={threeline} alt="3line logo" />
+        </motion.div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+          <img src={afrodriods} alt="afrodroids logo" />
+        </motion.div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={ala} alt="ala logo" />
-        </div>
-        <div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={bap} alt="Bolanle Austen Peters logo" />
-        </div>
-        <div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={chevron} alt="chevron logo" />
-        </div>
-        <div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={chickenrepublic} alt="chicken republic logo" />
-        </div>
-        <div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={cwg} alt="CWG logo" />
-        </div>
-        <div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={dorman} alt="dorman logo" />
-        </div>
-        <div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={fincra} alt="fincra logo" />
-        </div>
-        <div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={fmn} alt="fmn logo" />
-        </div>
-        <div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={globus} alt="globus bank logo" />
-        </div>
-        <div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={ihs} alt="ihs logo" />
-        </div>
-        <div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={mrchef} alt="mrchef logo" />
-        </div>
-        <div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={sao} alt="sao logo" />
-        </div>
-        <div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={unitybank} alt="unitybank logo" />
-        </div>
-        <div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={youverify} alt="youverify logo" />
-        </div>
+        </motion.div>
       </div>
     </div>
   );

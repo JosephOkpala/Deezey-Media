@@ -148,7 +148,7 @@ nav {
 .services-page {
   width: 90%;
   max-width: 1600px;
-  margin: 0 auto;
+  margin: 0 auto 10rem auto;
 }
 
 .services-header {
@@ -202,17 +202,26 @@ nav {
   max-width: 500px;
 }
 
-/* .clients-page {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-} */
+/*     clients page styles      */
 
-.clients-page img {
-  width: 4rem;
+.clients-page {
+  max-width: 1660px;
+  width: 95%;
+  margin: 0 auto 8rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
 }
 
-#width {
-  width: 10rem;
+.clients-page img {
+  max-width: 100%;
+  width: 140px;
+  height: 75px;
+  object-fit: contain;
+  cursor: pointer;
+  margin-bottom: 2rem;
 }
 
 /*             Media styles here            */
@@ -260,4 +269,8 @@ nav {
   /* .each-service {
     margin: 0 auto;
   } */
+
+  .clients-page {
+    grid-template-columns: 1fr 1fr;
+  }
 }

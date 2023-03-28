@@ -572,49 +572,124 @@ const App = () => {
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={threeline} alt="3line logo" />
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.2, type: 'spring' }}
+          viewport={{ once: true }}
+        >
           <img src={afrodriods} alt="afrodroids logo" />
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.3, type: 'spring' }}
+          viewport={{ once: true }}
+        >
           <img src={ala} alt="ala logo" />
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.4, type: 'spring' }}
+          viewport={{ once: true }}
+        >
           <img src={bap} alt="Bolanle Austen Peters logo" />
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.5, type: 'spring' }}
+          viewport={{ once: true }}
+        >
           <img src={chevron} alt="chevron logo" />
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.6, type: 'spring' }}
+          viewport={{ once: true }}
+        >
           <img src={chickenrepublic} alt="chicken republic logo" />
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.7, type: 'spring' }}
+          viewport={{ once: true }}
+        >
           <img src={cwg} alt="CWG logo" />
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.8, type: 'spring' }}
+          viewport={{ once: true }}
+        >
           <img src={dorman} alt="dorman logo" />
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.9, type: 'spring' }}
+          viewport={{ once: true }}
+        >
           <img src={fincra} alt="fincra logo" />
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 1, type: 'spring' }}
+          viewport={{ once: true }}
+        >
           <img src={fmn} alt="fmn logo" />
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 1.1, type: 'spring' }}
+          viewport={{ once: true }}
+        >
           <img src={globus} alt="globus bank logo" />
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 1.2, type: 'spring' }}
+          viewport={{ once: true }}
+        >
           <img src={ihs} alt="ihs logo" />
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 1.3, type: 'spring' }}
+          viewport={{ once: true }}
+        >
           <img src={mrchef} alt="mrchef logo" />
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 1.4, type: 'spring' }}
+          viewport={{ once: true }}
+        >
           <img src={sao} alt="sao logo" />
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 1.5, type: 'spring' }}
+          viewport={{ once: true }}
+        >
           <img src={unitybank} alt="unitybank logo" />
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 1.6, type: 'spring' }}
+          viewport={{ once: true }}
+        >
           <img src={youverify} alt="youverify logo" />
         </motion.div>
       </div>

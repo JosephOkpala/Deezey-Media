@@ -221,7 +221,14 @@ nav {
   height: 75px;
   object-fit: contain;
   cursor: pointer;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.clients-page img:hover {
+  -webkit-filter: grayscale(0);
 }
 
 /*             Media styles here            */

@@ -308,23 +308,25 @@ const Home = () => {
       <div>
         <motion.h4
           initial={{ y: 30, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
+          whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.4, type: 'spring' }}
-          // viewport={{ once: true }}
+          viewport={{ once: true }}
         >
           DEEZEY MEDIA IS A VERSATILE MEDIA COMPANY
         </motion.h4>
         <motion.h1
           initial={{ y: 30, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
+          whileInView={{ y: 0, opacity: 1 }}
           transition={{ type: 'spring' }}
+          viewport={{ once: true }}
         >
           We create new media content for <br /> brands and individuals.
         </motion.h1>
         <motion.h4
           initial={{ y: 30, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
+          whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.7, type: 'spring' }}
+          viewport={{ once: true }}
         >
           EXPLORE OUR EXPANDING DIGITAL CONTENT PLATFORM...
         </motion.h4>

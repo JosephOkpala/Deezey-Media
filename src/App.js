@@ -309,7 +309,7 @@ const Home = () => {
         <motion.h4
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.4 }}
+          transition={{ delay: 0.4, type: 'spring' }}
           // viewport={{ once: true }}
         >
           DEEZEY MEDIA IS A VERSATILE MEDIA COMPANY
@@ -317,13 +317,14 @@ const Home = () => {
         <motion.h1
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
+          transition={{ type: 'spring' }}
         >
           We create new media content for <br /> brands and individuals.
         </motion.h1>
         <motion.h4
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.7 }}
+          transition={{ delay: 0.7, type: 'spring' }}
         >
           EXPLORE OUR EXPANDING DIGITAL CONTENT PLATFORM...
         </motion.h4>
@@ -345,6 +346,8 @@ const App = () => {
     });
   };
 
+  // const { scrollYProgress } = useScroll();
+
   return (
     <div className="App">
       {/* <Navbar /> */}
@@ -361,7 +364,7 @@ const App = () => {
               <motion.li
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.1 }}
+                transition={{ delay: 0.1, type: 'spring' }}
                 onClick={() => scrollToSection(aboutus)}
               >
                 About Us
@@ -369,7 +372,7 @@ const App = () => {
               <motion.li
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.2 }}
+                transition={{ delay: 0.2, type: 'spring' }}
                 onClick={() => scrollToSection(services)}
               >
                 Services
@@ -377,7 +380,7 @@ const App = () => {
               <motion.li
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.35 }}
+                transition={{ delay: 0.35, type: 'spring' }}
                 onClick={() => scrollToSection(portfolio)}
               >
                 Portfolio
@@ -385,7 +388,7 @@ const App = () => {
               <motion.li
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.45 }}
+                transition={{ delay: 0.45, type: 'spring' }}
                 onClick={() => scrollToSection(team)}
               >
                 Team
@@ -394,7 +397,7 @@ const App = () => {
                 <motion.li
                   initial={{ y: 30, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  transition={{ delay: 0.54 }}
+                  transition={{ delay: 0.54, type: 'spring' }}
                 >
                   Contact Us
                 </motion.li>
@@ -407,9 +410,14 @@ const App = () => {
       <div className="about-page-cover" ref={aboutus}>
         <div className="about-page">
           <div>
-            <h2>
+            <motion.h2
+              initial={{ y: 40 }}
+              whileInView={{ y: 0 }}
+              transition={{ type: 'spring' }}
+              viewport={{ once: true }}
+            >
               <span className="about-stroke">About</span> Us
-            </h2>
+            </motion.h2>
             <p>
               As digital content and media evolves, we are finding the best ways
               to tell brand stories and captivate audiences. Through visual

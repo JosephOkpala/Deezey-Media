@@ -13,6 +13,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  font-family: 'Helvetica';
 }
 
 nav {
@@ -24,9 +25,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: hsla(0, 0%, 100%, 1);
-  /* padding: 1.5rem 0rem; */
   z-index: 2;
-  /* border: 2px solid black; */
 }
 
 .nav-shadow {
@@ -86,6 +85,7 @@ nav {
   width: 90%;
   max-width: 1600px;
   margin: 0 auto;
+  border: 1px solid cyan;
 }
 
 .home-page div {
@@ -102,7 +102,7 @@ nav {
 }
 
 .home-page h1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   line-height: 6.7rem;
   font-weight: 900;
   /* max-width: 1100px; */
@@ -419,5 +419,20 @@ footer {
 
   .mg-3 {
     margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .home-page {
+    height: 60vh;
+  }
+  .home-page h1 {
+    font-size: 5.2rem;
+  }
+}
+
+@media (min-width: 3000px) {
+  .home-page h1 {
+    font-size: 5.5rem;
   }
 }

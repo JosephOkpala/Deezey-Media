@@ -25,6 +25,9 @@ import drone from './img/drone-guy.jpg';
 import ebuka from './img/ebuka.png';
 import joseph from './img/joseph.jpeg';
 import deezey from './img/deezey_footer.png';
+import instagram from './img/instagram-white.png';
+import twitter from './img/twitter-white.png';
+import linkedin from './img/linkedin-white.png';
 import './App.css';
 
 const Home = () => {
@@ -506,44 +509,46 @@ const App = () => {
             <h5>Get in touch</h5>
             <p className="mg-2">75 Mike Ejezie Street, Lekki Phase 1,</p>
             <p className="mg-2">Lagos, Nigeria.</p>
-            <a href="mailto:deezeymedia@gmail.com">
+            <a href="mailto:deezeymedia@gmail.com" className="footer-mail">
               <p className="mg-2">hello@deezeymedia.com</p>
             </a>
             <p>+2347064810089</p>
           </div>
           <div className="mg-3">
             <h5>Follow us</h5>
-            <a
-              href="https://google.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img src="" alt="" />
-            </a>
-            <a
-              href="https://google.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img src="" alt="" />
-            </a>
-            <a
-              href="https://google.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img src="" alt="" />
-            </a>
-            <a
-              href="https://google.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img src="" alt="" />
-            </a>
+            <div className="social-media-links">
+              <a
+                href="https://google.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img src="" alt="" />
+              </a>
+              <a
+                href="https://google.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img src={instagram} alt="instagram logo" className="width-1" />
+              </a>
+              <a
+                href="https://google.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img src={twitter} alt="twitter logo" className="width-2" />
+              </a>
+              <a
+                href="https://google.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img src={linkedin} alt="linkedin logo" className="width-3" />
+              </a>
+            </div>
           </div>
           <div className="footer-logo">
-            <img src={deezey} alt="" />
+            <img src={deezey} alt="deezey media logo" />
           </div>
         </div>
       </footer>

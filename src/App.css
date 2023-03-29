@@ -306,8 +306,38 @@ footer {
   width: 12rem;
 }
 
+.social-media-links a {
+  width: 100%;
+}
+
+.social-media-links {
+  border: 1px solid cyan;
+  display: flex;
+  align-items: center;
+}
+
+.social-media-links a {
+  border: 1px solid red;
+}
+
+.width-1 {
+  width: 2rem;
+}
+
+.width-2 {
+  width: 3rem;
+}
+
+.width-3 {
+  width: 3rem;
+}
+
 .mg-2 {
   margin-bottom: 0.4rem;
+}
+
+.footer-mail {
+  color: white;
 }
 
 /*             Media styles here            */

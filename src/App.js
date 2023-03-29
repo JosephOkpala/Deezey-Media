@@ -448,7 +448,9 @@ const App = () => {
           >
             <img src={emmanuel} alt="creative director profile" />
             <h4 style={{ fontSize: '1.4rem' }}>Okpala Emmanuel</h4>
-            <h5 style={{ fontSize: '1.1rem' }}>Creative Director</h5>
+            <h5 style={{ fontSize: '1.1rem', marginBottom: '3rem' }}>
+              Creative Director
+            </h5>
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
@@ -458,7 +460,9 @@ const App = () => {
           >
             <img src={ronald} alt="project manager and colorist profile" />
             <h4 style={{ fontSize: '1.4rem' }}>Nnadiukwu Ronald</h4>
-            <h5 style={{ fontSize: '1.1rem' }}>Video Producer</h5>
+            <h5 style={{ fontSize: '1.1rem', marginBottom: '3rem' }}>
+              Video Producer
+            </h5>
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
@@ -468,7 +472,9 @@ const App = () => {
           >
             <img src={emordi} alt="strategy lead profile" />
             <h4 style={{ fontSize: '1.4rem' }}>Emmanuel Emordi</h4>
-            <h5 style={{ fontSize: '1.1rem' }}>Strategy Lead</h5>
+            <h5 style={{ fontSize: '1.1rem', marginBottom: '3rem' }}>
+              Strategy Lead
+            </h5>
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
@@ -478,7 +484,9 @@ const App = () => {
           >
             <img src={precious} alt="graphics designer profile" />
             <h4 style={{ fontSize: '1.4rem' }}>Obi Precious</h4>
-            <h5 style={{ fontSize: '1.1rem' }}>Graphics Designer</h5>
+            <h5 style={{ fontSize: '1.1rem', marginBottom: '3rem' }}>
+              Graphics Designer
+            </h5>
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
@@ -488,7 +496,7 @@ const App = () => {
           >
             <img src={drone} alt="drone guy profile" />
             <h4 style={{ fontSize: '1.4rem' }}>Ovo Derhie</h4>
-            <h5 style={{ fontSize: '1.1rem' }}>
+            <h5 style={{ fontSize: '1.1rem', marginBottom: '3rem' }}>
               Drone Pilot and Cinematographer
             </h5>
           </motion.div>
@@ -500,7 +508,9 @@ const App = () => {
           >
             <img src={ebuka} alt="photographer profile" />
             <h4 style={{ fontSize: '1.4rem' }}>Onyewuchi Ebuka</h4>
-            <h5 style={{ fontSize: '1.1rem' }}>Photographer</h5>
+            <h5 style={{ fontSize: '1.1rem', marginBottom: '3rem' }}>
+              Photographer
+            </h5>
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
@@ -510,7 +520,9 @@ const App = () => {
           >
             <img src={joseph} alt="frontend developer profile" />
             <h4 style={{ fontSize: '1.4rem' }}>Okpala Joseph</h4>
-            <h5 style={{ fontSize: '1.1rem' }}>Frontend Developer</h5>
+            <h5 style={{ fontSize: '1.1rem', marginBottom: '3rem' }}>
+              Frontend Developer
+            </h5>
           </motion.div>
         </div>
       </div>

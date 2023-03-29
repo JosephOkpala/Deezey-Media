@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
 * {
   padding: 0rem;
   margin: 0rem;
@@ -7,6 +9,10 @@
 ::selection {
   background-color: red;
   color: white;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
 }
 
 nav {
@@ -98,6 +104,7 @@ nav {
 .home-page h1 {
   font-size: 4.5rem;
   line-height: 6.7rem;
+  font-weight: 900;
   /* max-width: 1100px; */
 }
 
@@ -130,6 +137,7 @@ nav {
   font-size: 2.5rem;
   color: red;
   margin-bottom: 1rem;
+  font-weight: 900;
 }
 
 .about-stroke {
@@ -162,6 +170,7 @@ nav {
 
 .services-header h1 {
   font-size: 3rem;
+  font-weight: 900;
 }
 
 .services-header p {
@@ -187,6 +196,7 @@ nav {
 
 .each-service h4 {
   font-size: 1.5rem;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
@@ -263,6 +273,7 @@ nav {
 .our-team-grid div h4 {
   margin-bottom: 0.8rem;
   font-size: 1.2rem;
+  font-weight: 900;
 }
 
 .our-team-grid div:not(:last-child) {
@@ -271,6 +282,7 @@ nav {
 
 .our-team h3 {
   font-size: 2rem;
+  font-weight: 900;
   margin-bottom: 3rem;
 }
 

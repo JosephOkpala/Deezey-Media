@@ -448,7 +448,13 @@ const App = () => {
           >
             <img src={emmanuel} alt="creative director profile" />
             <h4 style={{ fontSize: '1.4rem' }}>Okpala Emmanuel</h4>
-            <h5 style={{ fontSize: '1.1rem', marginBottom: '3rem' }}>
+            <h5
+              style={{
+                fontSize: '1.1rem',
+                marginBottom: '3rem',
+                fontWeight: '400',
+              }}
+            >
               Creative Director
             </h5>
           </motion.div>
@@ -460,7 +466,13 @@ const App = () => {
           >
             <img src={ronald} alt="project manager and colorist profile" />
             <h4 style={{ fontSize: '1.4rem' }}>Nnadiukwu Ronald</h4>
-            <h5 style={{ fontSize: '1.1rem', marginBottom: '3rem' }}>
+            <h5
+              style={{
+                fontSize: '1.1rem',
+                marginBottom: '3rem',
+                fontWeight: '400',
+              }}
+            >
               Video Producer
             </h5>
           </motion.div>
@@ -472,7 +484,13 @@ const App = () => {
           >
             <img src={emordi} alt="strategy lead profile" />
             <h4 style={{ fontSize: '1.4rem' }}>Emmanuel Emordi</h4>
-            <h5 style={{ fontSize: '1.1rem', marginBottom: '3rem' }}>
+            <h5
+              style={{
+                fontSize: '1.1rem',
+                marginBottom: '3rem',
+                fontWeight: '400',
+              }}
+            >
               Strategy Lead
             </h5>
           </motion.div>
@@ -484,7 +502,13 @@ const App = () => {
           >
             <img src={precious} alt="graphics designer profile" />
             <h4 style={{ fontSize: '1.4rem' }}>Obi Precious</h4>
-            <h5 style={{ fontSize: '1.1rem', marginBottom: '3rem' }}>
+            <h5
+              style={{
+                fontSize: '1.1rem',
+                marginBottom: '3rem',
+                fontWeight: '400',
+              }}
+            >
               Graphics Designer
             </h5>
           </motion.div>
@@ -496,7 +520,13 @@ const App = () => {
           >
             <img src={drone} alt="drone guy profile" />
             <h4 style={{ fontSize: '1.4rem' }}>Ovo Derhie</h4>
-            <h5 style={{ fontSize: '1.1rem', marginBottom: '3rem' }}>
+            <h5
+              style={{
+                fontSize: '1.1rem',
+                marginBottom: '3rem',
+                fontWeight: '400',
+              }}
+            >
               Drone Pilot and Cinematographer
             </h5>
           </motion.div>
@@ -508,7 +538,13 @@ const App = () => {
           >
             <img src={ebuka} alt="photographer profile" />
             <h4 style={{ fontSize: '1.4rem' }}>Onyewuchi Ebuka</h4>
-            <h5 style={{ fontSize: '1.1rem', marginBottom: '3rem' }}>
+            <h5
+              style={{
+                fontSize: '1.1rem',
+                marginBottom: '3rem',
+                fontWeight: '400',
+              }}
+            >
               Photographer
             </h5>
           </motion.div>
@@ -520,7 +556,13 @@ const App = () => {
           >
             <img src={joseph} alt="frontend developer profile" />
             <h4 style={{ fontSize: '1.4rem' }}>Okpala Joseph</h4>
-            <h5 style={{ fontSize: '1.1rem', marginBottom: '3rem' }}>
+            <h5
+              style={{
+                fontSize: '1.1rem',
+                marginBottom: '3rem',
+                fontWeight: '400',
+              }}
+            >
               Frontend Developer
             </h5>
           </motion.div>

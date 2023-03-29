@@ -17,6 +17,14 @@ import mrchef from './img/MrChef.png';
 import sao from './img/SAO.png';
 import unitybank from './img/unitybank.png';
 import youverify from './img/youverify.png';
+import emmanuel from './img/emmanuel.png';
+import ronald from './img/ronald.png';
+import emordi from './img/emordi.png';
+import precious from './img/precious.png';
+import drone from './img/drone-guy.jpg';
+import ebuka from './img/ebuka.png';
+import joseph from './img/joseph.jpeg';
+
 import './App.css';
 
 const Home = () => {
@@ -421,6 +429,37 @@ const App = () => {
         >
           <img src={youverify} alt="youverify logo" />
         </motion.div>
+      </div>
+      <div className="our-team">
+        <h3>Our Team</h3>
+        <div>
+          <h4>Creative Director</h4>
+          <img src={emmanuel} alt="creative director profile" />
+        </div>
+        <div>
+          <h4>Project Manager and Colorist</h4>
+          <img src={ronald} alt="project manager and colorist profile" />
+        </div>
+        <div>
+          <h4>Strategy Lead</h4>
+          <img src={emordi} alt="strategy lead profile" />
+        </div>
+        <div>
+          <h4>Graphics Designer</h4>
+          <img src={precious} alt="graphics designer profile" />
+        </div>
+        <div>
+          <h4>Drone Pilot and Cinematographer</h4>
+          <img src={drone} alt="drone guy profile" />
+        </div>
+        <div>
+          <h4>Photographer</h4>
+          <img src={ebuka} alt="photographer profile" />
+        </div>
+        <div>
+          <h4>Frontend Developer</h4>
+          <img src={joseph} alt="frontend developer profile" />
+        </div>
       </div>
     </div>
   );

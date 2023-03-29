@@ -210,7 +210,7 @@ nav {
   max-width: 500px;
 }
 
-/*     clients page styles      */
+/*           clients page styles           */
 
 .clients-page {
   max-width: 1660px;
@@ -239,6 +239,15 @@ nav {
 .clients-page img:hover {
   filter: grayscale(0);
   -webkit-filter: grayscale(0);
+}
+
+/*             Our Team Styles               */
+
+.our-team {
+  border: 1px solid cyan;
+  max-width: 1660px;
+  width: 90%;
+  margin: 0 auto 5rem auto;
 }
 
 /*             Media styles here            */
@@ -282,10 +291,6 @@ nav {
     display: grid;
     grid-template-columns: 1fr;
   }
-
-  /* .each-service {
-    margin: 0 auto;
-  } */
 
   .clients-page {
     grid-template-columns: 1fr 1fr;

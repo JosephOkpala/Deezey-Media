@@ -432,33 +432,35 @@ const App = () => {
       </div>
       <div className="our-team">
         <h3>Our Team</h3>
-        <div>
-          <h4>Creative Director</h4>
-          <img src={emmanuel} alt="creative director profile" />
-        </div>
-        <div>
-          <h4>Project Manager and Colorist</h4>
-          <img src={ronald} alt="project manager and colorist profile" />
-        </div>
-        <div>
-          <h4>Strategy Lead</h4>
-          <img src={emordi} alt="strategy lead profile" />
-        </div>
-        <div>
-          <h4>Graphics Designer</h4>
-          <img src={precious} alt="graphics designer profile" />
-        </div>
-        <div>
-          <h4>Drone Pilot and Cinematographer</h4>
-          <img src={drone} alt="drone guy profile" />
-        </div>
-        <div>
-          <h4>Photographer</h4>
-          <img src={ebuka} alt="photographer profile" />
-        </div>
-        <div>
-          <h4>Frontend Developer</h4>
-          <img src={joseph} alt="frontend developer profile" />
+        <div className="our-team-grid">
+          <div>
+            <h4>Creative Director</h4>
+            <img src={emmanuel} alt="creative director profile" />
+          </div>
+          <div>
+            <h4>Project Manager and Colorist</h4>
+            <img src={ronald} alt="project manager and colorist profile" />
+          </div>
+          <div>
+            <h4>Strategy Lead</h4>
+            <img src={emordi} alt="strategy lead profile" />
+          </div>
+          <div>
+            <h4>Graphics Designer</h4>
+            <img src={precious} alt="graphics designer profile" />
+          </div>
+          <div>
+            <h4>Drone Pilot and Cinematographer</h4>
+            <img src={drone} alt="drone guy profile" />
+          </div>
+          <div>
+            <h4>Photographer</h4>
+            <img src={ebuka} alt="photographer profile" />
+          </div>
+          <div>
+            <h4>Frontend Developer</h4>
+            <img src={joseph} alt="frontend developer profile" />
+          </div>
         </div>
       </div>
     </div>

@@ -120,7 +120,7 @@ const App = () => {
               >
                 Team
               </motion.li>
-              <a href="mailto:okpalajoseph995@gmail.com">
+              <a href="mailto:deezeymedia@gmail.com">
                 <motion.li
                   initial={{ y: 30, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -506,7 +506,9 @@ const App = () => {
             <h5>Get in touch</h5>
             <p className="mg-2">75 Mike Ejezie Street, Lekki Phase 1,</p>
             <p className="mg-2">Lagos, Nigeria.</p>
-            <p className="mg-2">hello@deezeymedia.com</p>
+            <a href="mailto:deezeymedia@gmail.com">
+              <p className="mg-2">hello@deezeymedia.com</p>
+            </a>
             <p>+2347064810089</p>
           </div>
           <div className="mg-3">

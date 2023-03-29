@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { motion } from 'framer-motion';
-import logodark from './img/deezey_media_logo_dark.png';
+import logodark from './img/Deezey-media-logo.png';
 import threeline from './img/3Line.png';
 import afrodriods from './img/afrodroids.png';
 import ala from './img/ala_logo.png';
@@ -24,7 +24,7 @@ import precious from './img/precious.png';
 import drone from './img/drone-guy.jpg';
 import ebuka from './img/ebuka.png';
 import joseph from './img/joseph.jpeg';
-import deezey from './img/deezey_footer.png';
+import deezey from './img/Deezey-Media-Logo-footer.png';
 import facebook from './img/facebook.png';
 import instagram from './img/instagram.png';
 import twitter from './img/twitter.png';

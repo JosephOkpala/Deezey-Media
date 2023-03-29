@@ -278,6 +278,34 @@ nav {
   width: 10rem;
 }
 
+/*             Footer styles                 */
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 4rem 0;
+}
+
+.footer-cont {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-cont div h5 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.footer-logo img {
+  width: 12rem;
+}
+
+.mg-2 {
+  margin-bottom: 0.4rem;
+}
+
 /*             Media styles here            */
 
 @media (max-width: 767px) {
@@ -327,5 +355,15 @@ nav {
 
   .our-team-grid {
     grid-template-columns: 1fr;
+  }
+
+  .footer-cont {
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mg-3 {
+    margin-bottom: 3rem;
   }
 }

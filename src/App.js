@@ -24,7 +24,7 @@ import precious from './img/precious.png';
 import drone from './img/drone-guy.jpg';
 import ebuka from './img/ebuka.png';
 import joseph from './img/joseph.jpeg';
-
+import deezey from './img/deezey_footer.png';
 import './App.css';
 
 const Home = () => {
@@ -463,6 +463,51 @@ const App = () => {
           </div>
         </div>
       </div>
+      <footer className="footer">
+        <div className="footer-cont">
+          <div className="mg-3">
+            <h5>Get in touch</h5>
+            <p className="mg-2">75 Mike Ejezie Street, Lekki Phase 1,</p>
+            <p className="mg-2">Lagos, Nigeria.</p>
+            <p className="mg-2">hello@deezeymedia.com</p>
+            <p>+2347064810089</p>
+          </div>
+          <div className="mg-3">
+            <h5>Follow us</h5>
+            <a
+              href="https://google.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src="" alt="" />
+            </a>
+            <a
+              href="https://google.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src="" alt="" />
+            </a>
+            <a
+              href="https://google.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src="" alt="" />
+            </a>
+            <a
+              href="https://google.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src="" alt="" />
+            </a>
+          </div>
+          <div className="footer-logo">
+            <img src={deezey} alt="" />
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };

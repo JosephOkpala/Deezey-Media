@@ -25,9 +25,11 @@ import drone from './img/drone-guy.jpg';
 import ebuka from './img/ebuka.png';
 import joseph from './img/joseph.jpeg';
 import deezey from './img/deezey_footer.png';
-import instagram from './img/instagram-white.png';
-import twitter from './img/twitter-white.png';
-import linkedin from './img/linkedin-white.png';
+import facebook from './img/facebook.png';
+import instagram from './img/instagram.png';
+import twitter from './img/twitter.png';
+import linkedin from './img/linkedin.png';
+import tiktok from './img/tik-tok.png';
 import './App.css';
 
 const Home = () => {
@@ -527,32 +529,39 @@ const App = () => {
             <h5>Follow us</h5>
             <div className="social-media-links">
               <a
-                href="https://google.com"
+                href="https://m.facebook.com/Deezeymedia/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <img src="" alt="" />
+                <img src={facebook} alt="facebook logo" />
+              </a>
+              <a
+                href="https://www.instagram.com/deezeymedia/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img src={instagram} alt="instagram logo" />
               </a>
               <a
                 href="https://google.com"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <img src={instagram} alt="instagram logo" className="width-1" />
+                <img src={twitter} alt="twitter logo" />
               </a>
               <a
                 href="https://google.com"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <img src={twitter} alt="twitter logo" className="width-2" />
+                <img src={linkedin} alt="linkedin logo" />
               </a>
               <a
                 href="https://google.com"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <img src={linkedin} alt="linkedin logo" className="width-3" />
+                <img src={tiktok} alt="tiktok logo" />
               </a>
             </div>
           </div>

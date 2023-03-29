@@ -310,14 +310,18 @@ footer {
   width: 100%;
 }
 
+.social-media-links a:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.social-media-links a img {
+  width: 25px;
+}
+
 .social-media-links {
   display: flex;
   align-items: center;
 }
-
-/* .social-media-links a {
-  border: 1px solid red;
-} */
 
 .width-1 {
   width: 2rem;

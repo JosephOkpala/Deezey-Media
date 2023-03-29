@@ -430,37 +430,72 @@ const App = () => {
           <img src={youverify} alt="youverify logo" />
         </motion.div>
       </div>
-      <div className="our-team">
+      <div className="our-team" ref={team}>
         <h3>Our Team</h3>
         <div className="our-team-grid">
-          <div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.1, type: 'spring' }}
+            viewport={{ once: true }}
+          >
             <h4>Creative Director</h4>
             <img src={emmanuel} alt="creative director profile" />
-          </div>
-          <div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.2, type: 'spring' }}
+            viewport={{ once: true }}
+          >
             <h4>Project Manager and Colorist</h4>
             <img src={ronald} alt="project manager and colorist profile" />
-          </div>
-          <div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.3, type: 'spring' }}
+            viewport={{ once: true }}
+          >
             <h4>Strategy Lead</h4>
             <img src={emordi} alt="strategy lead profile" />
-          </div>
-          <div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.4, type: 'spring' }}
+            viewport={{ once: true }}
+          >
             <h4>Graphics Designer</h4>
             <img src={precious} alt="graphics designer profile" />
-          </div>
-          <div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.5, type: 'spring' }}
+            viewport={{ once: true }}
+          >
             <h4>Drone Pilot and Cinematographer</h4>
             <img src={drone} alt="drone guy profile" />
-          </div>
-          <div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.6, type: 'spring' }}
+            viewport={{ once: true }}
+          >
             <h4>Photographer</h4>
             <img src={ebuka} alt="photographer profile" />
-          </div>
-          <div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.7, type: 'spring' }}
+            viewport={{ once: true }}
+          >
             <h4>Frontend Developer</h4>
             <img src={joseph} alt="frontend developer profile" />
-          </div>
+          </motion.div>
         </div>
       </div>
       <footer className="footer">

@@ -2,7 +2,6 @@ import { useRef } from 'react';
 import { motion } from 'framer-motion';
 import logodark from './img/Deezey-media-logo.png';
 import threeline from './img/3Line.png';
-import afrodriods from './img/afrodroids.png';
 import ala from './img/ala_logo.png';
 import bap from './img/BAP.png';
 import chevron from './img/Chevron.png';
@@ -20,10 +19,10 @@ import youverify from './img/youverify.png';
 import emmanuel from './img/emmanuel.png';
 import ronald from './img/ronald.png';
 import emordi from './img/emordi.png';
-import precious from './img/precious.png';
-import drone from './img/drone-guy.jpg';
+// import precious from './img/precious.png';
+import drone from './img/drone-guy.png';
 import ebuka from './img/ebuka.png';
-import joseph from './img/joseph.jpeg';
+import joseph from './img/josephh.png';
 import deezey from './img/Deezey-Media-Logo-footer.png';
 import facebook from './img/facebook.png';
 import instagram from './img/instagram.png';
@@ -322,7 +321,7 @@ const App = () => {
           transition={{ delay: 0.1, type: 'spring' }}
           viewport={{ once: true }}
         >
-          <img src={afrodriods} alt="afrodroids logo" />
+          <img src={youverify} alt="youverify logo" />
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
@@ -428,79 +427,59 @@ const App = () => {
         >
           <img src={unitybank} alt="unitybank logo" />
         </motion.div>
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 1.35, type: 'spring' }}
-          viewport={{ once: true }}
-        >
-          <img src={youverify} alt="youverify logo" />
-        </motion.div>
       </div>
       <div className="our-team" ref={team}>
         <h3>Our Team</h3>
         <div className="our-team-grid">
           <motion.div
+            className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.1, type: 'spring' }}
             viewport={{ once: true }}
           >
-            <img src={emmanuel} alt="creative director profile" />
-            <h4 style={{ fontSize: '1.4rem' }}>Okpala Emmanuel</h4>
-            <h5
-              style={{
-                fontSize: '1.1rem',
-                marginBottom: '3rem',
-                fontWeight: '400',
-              }}
-            >
-              Creative Director
-            </h5>
+            <div className="color-overlay">
+              <img src={emmanuel} alt="creative director profile" />
+            </div>
+            <h4>Okpala Emmanuel</h4>
+            <h5>Creative Director</h5>
           </motion.div>
           <motion.div
+            className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.2, type: 'spring' }}
             viewport={{ once: true }}
           >
-            <img src={ronald} alt="project manager and colorist profile" />
-            <h4 style={{ fontSize: '1.4rem' }}>Nnadiukwu Ronald</h4>
-            <h5
-              style={{
-                fontSize: '1.1rem',
-                marginBottom: '3rem',
-                fontWeight: '400',
-              }}
-            >
-              Video Producer
-            </h5>
+            <div className="color-overlay">
+              <img src={ronald} alt="project manager and colorist profile" />
+            </div>
+            <h4>Nnadiukwu Ronald</h4>
+            <h5>Video Producer</h5>
           </motion.div>
           <motion.div
+            className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.3, type: 'spring' }}
             viewport={{ once: true }}
           >
-            <img src={emordi} alt="strategy lead profile" />
-            <h4 style={{ fontSize: '1.4rem' }}>Emmanuel Emordi</h4>
-            <h5
-              style={{
-                fontSize: '1.1rem',
-                marginBottom: '3rem',
-                fontWeight: '400',
-              }}
-            >
-              Strategy Lead
-            </h5>
+            <div className="color-overlay">
+              <img src={emordi} alt="strategy lead profile" />
+            </div>
+            <h4>Emmanuel Emordi</h4>
+            <h5>Strategy Lead</h5>
           </motion.div>
-          <motion.div
+          {/* <motion.div
+          className='each-team'
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.4, type: 'spring' }}
             viewport={{ once: true }}
           >
-            <img src={precious} alt="graphics designer profile" />
+            <div>
+              <img src={precious} alt="graphics designer profile" />
+            </div>
             <h4 style={{ fontSize: '1.4rem' }}>Obi Precious</h4>
             <h5
               style={{
@@ -511,54 +490,48 @@ const App = () => {
             >
               Graphics Designer
             </h5>
-          </motion.div>
+          </motion.div> */}
           <motion.div
+            className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.5, type: 'spring' }}
             viewport={{ once: true }}
           >
-            <img src={drone} alt="drone guy profile" />
-            <h4 style={{ fontSize: '1.4rem' }}>Ovo Derhie</h4>
-            <h5
-              style={{
-                fontSize: '1.1rem',
-                marginBottom: '3rem',
-                fontWeight: '400',
-              }}
-            >
-              Drone Pilot and Cinematographer
-            </h5>
+            <div className="color-overlay">
+              <img src={drone} alt="drone guy profile" />
+            </div>
+            <h4>Ovo Derhie</h4>
+            <h5>Drone Pilot and Cinematographer</h5>
           </motion.div>
           <motion.div
+            className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.6, type: 'spring' }}
             viewport={{ once: true }}
           >
-            <img src={ebuka} alt="photographer profile" />
-            <h4 style={{ fontSize: '1.4rem' }}>Onyewuchi Ebuka</h4>
-            <h5
-              style={{
-                fontSize: '1.1rem',
-                marginBottom: '3rem',
-                fontWeight: '400',
-              }}
-            >
-              Photographer
-            </h5>
+            <div className="color-overlay">
+              <img src={ebuka} alt="photographer profile" />
+            </div>
+            <h4>Onyewuchi Ebuka</h4>
+            <h5>Photographer</h5>
           </motion.div>
           <motion.div
+            className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.7, type: 'spring' }}
             viewport={{ once: true }}
           >
-            <img src={joseph} alt="frontend developer profile" />
-            <h4 style={{ fontSize: '1.4rem' }}>Okpala Joseph</h4>
+            <div className="color-overlay">
+              <img src={joseph} alt="frontend developer profile" />
+            </div>
+
+            <h4 style={{ fontSize: '1.6rem' }}>Okpala Joseph</h4>
             <h5
               style={{
-                fontSize: '1.1rem',
+                fontSize: '1rem',
                 marginBottom: '3rem',
                 fontWeight: '400',
               }}
@@ -569,58 +542,70 @@ const App = () => {
         </div>
       </div>
       <footer className="footer">
-        <div className="footer-cont">
-          <div className="mg-3">
-            <h5>Get in touch</h5>
-            <p className="mg-2">75 Mike Ejezie Street, Lekki Phase 1,</p>
-            <p className="mg-2">Lagos, Nigeria.</p>
-            <a href="mailto:deezeymedia@gmail.com" className="footer-mail">
-              <p className="mg-2">hello@deezeymedia.com</p>
-            </a>
-            <p>+2347064810089</p>
-          </div>
-          <div className="mg-3">
-            <h5>Follow us</h5>
-            <div className="social-media-links">
-              <a
-                href="https://m.facebook.com/Deezeymedia/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <img src={facebook} alt="facebook logo" />
-              </a>
-              <a
-                href="https://www.instagram.com/deezeymedia/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <img src={instagram} alt="instagram logo" />
-              </a>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <img src={twitter} alt="twitter logo" />
-              </a>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <img src={linkedin} alt="linkedin logo" />
-              </a>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <img src={tiktok} alt="tiktok logo" />
-              </a>
+        <div className="footer-container">
+          <motion.h1>
+            <span style={{ fontWeight: '300' }}>Ready to get Started?</span>
+            <motion.a
+              href="mailto:deezeymedia@gmail.com"
+              style={{
+                textDecoration: 'none',
+                color: 'white',
+                fontWeight: '900',
+              }}
+            >
+              {' '}
+              Get in touch.
+            </motion.a>
+          </motion.h1>
+          <div className="footer-cont">
+            <div className="mg-3 footer-location">
+              <p className="mg-2">75 Mike Ejezie Street, Lekki Phase 1,</p>
+              <p className="mg-2">Lagos, Nigeria.</p>
+              <p>+2347064810089</p>
             </div>
-          </div>
-          <div className="footer-logo">
-            <img src={deezey} alt="deezey media logo" />
+            <div className="mg-3">
+              <h5>Follow us</h5>
+              <div className="social-media-links">
+                <a
+                  href="https://m.facebook.com/Deezeymedia/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img src={facebook} alt="facebook logo" />
+                </a>
+                <a
+                  href="https://www.instagram.com/deezeymedia/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img src={instagram} alt="instagram logo" />
+                </a>
+                <a
+                  href="https://google.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img src={twitter} alt="twitter logo" />
+                </a>
+                <a
+                  href="https://google.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img src={linkedin} alt="linkedin logo" />
+                </a>
+                <a
+                  href="https://google.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img src={tiktok} alt="tiktok logo" />
+                </a>
+              </div>
+            </div>
+            <div className="footer-logo">
+              <img src={deezey} alt="deezey media logo" />
+            </div>
           </div>
         </div>
       </footer>

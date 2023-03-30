@@ -168,7 +168,16 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="serv">
+      <section className="services-section">
+        <div className="service-section-text">
+          <h2>Services</h2>
+          <p>
+            Whether you have a new startup or an established business we are
+            here to help.
+          </p>
+        </div>
+      </section>
+      {/* <div className="serv">
         <div className="services-page" ref={services}>
           <div className="services-header">
             <motion.h1
@@ -310,7 +319,7 @@ const App = () => {
             </motion.div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="clients-page">
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <img src={threeline} alt="3line logo" />
@@ -448,7 +457,7 @@ const App = () => {
                 className="color-overlay-container-img"
               />
             </div>
-            <h4>Okpala Emmanuel</h4>
+            <h4>Emmanuel Okpala</h4>
             <h5>Creative Director</h5>
           </motion.div>
           <motion.div
@@ -461,7 +470,7 @@ const App = () => {
             <div className="color-overlay-container">
               <img src={ronald} alt="project manager and colorist profile" />
             </div>
-            <h4>Nnadiukwu Ronald</h4>
+            <h4>Ronald Nnadiukwu</h4>
             <h5>Video Producer</h5>
           </motion.div>
           <motion.div
@@ -476,6 +485,20 @@ const App = () => {
             </div>
             <h4>Emmanuel Emordi</h4>
             <h5>Strategy Lead</h5>
+          </motion.div>
+          <motion.div
+            className="each-team"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.7, type: 'spring' }}
+            viewport={{ once: true }}
+          >
+            <div className="color-overlay-container">
+              <img src={joseph} alt="frontend developer profile" />
+            </div>
+
+            <h4>Chima Okpala</h4>
+            <h5>Frontend Developer</h5>
           </motion.div>
           {/* <motion.div
           className='each-team'
@@ -523,20 +546,6 @@ const App = () => {
             </div>
             <h4>Onyewuchi Ebuka</h4>
             <h5>Photographer</h5>
-          </motion.div>
-          <motion.div
-            className="each-team"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.7, type: 'spring' }}
-            viewport={{ once: true }}
-          >
-            <div className="color-overlay-container">
-              <img src={joseph} alt="frontend developer profile" />
-            </div>
-
-            <h4>Okpala Joseph</h4>
-            <h5>Frontend Developer</h5>
           </motion.div>
         </div>
       </div>

@@ -29,6 +29,7 @@ import instagram from './img/instagram.png';
 import twitter from './img/twitter.png';
 import linkedin from './img/linkedin.png';
 import tiktok from './img/tik-tok.png';
+import emmanuell from './img/emmanuel-landscape.png';
 import './App.css';
 
 const Home = () => {
@@ -169,12 +170,30 @@ const App = () => {
         </div>
       </div>
       <section className="services-section">
-        <div className="service-section-text">
+        {/* <div className="service-section-text">
           <h2>Services</h2>
           <p>
             Whether you have a new startup or an established business we are
             here to help.
           </p>
+        </div> */}
+        <div className="each-services-container">
+          <div className="each-services-div">
+            <h2 style={{ marginBottom: '0.7rem' }}>
+              <span style={{ display: 'block' }}>Creating content that</span>
+              <span> drives people</span>
+            </h2>
+            <p style={{ width: '500px', marginBottom: '3rem' }}>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+              assumenda nesciunt. Sint quod iure omnis corporis repellendus
+              laudantium modi id tenetur quibusdam est, neque quam?.
+            </p>
+          </div>
+          <div className="each-services-images">
+            <img src={emmanuell} alt="" />
+            <img src={emmanuell} alt="" />
+            <img src={emmanuell} alt="" />
+          </div>
         </div>
       </section>
       {/* <div className="serv">

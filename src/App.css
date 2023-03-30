@@ -151,8 +151,43 @@ nav {
 /*      services page style START      */
 
 .services-section {
-  border: 1px solid red;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
+}
+
+.service-section-text {
+  width: 90%;
+  margin: 0 auto 4rem auto;
+}
+
+.service-section-text h2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+.service-section-text p {
+  font-size: 1.1rem;
+}
+
+.each-services-container {
+  width: 100%;
+}
+
+.each-services-div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.each-services-images {
+  display: inline;
+}
+
+.each-services-images img {
+  width: 33.3%;
+}
+
+.each-services-div h2 {
+  font-size: 4rem;
+  font-weight: 900;
 }
 
 /* .services-page {
@@ -258,6 +293,7 @@ nav {
 .our-team {
   margin-bottom: 6rem;
   position: relative;
+  background-color: white;
 }
 
 .our-team-text {

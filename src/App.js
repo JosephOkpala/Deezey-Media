@@ -429,7 +429,10 @@ const App = () => {
         </motion.div>
       </div>
       <div className="our-team" ref={team}>
-        <h3>Our Team</h3>
+        <div className="our-team-text">
+          <h3>Our Team</h3>
+          <p>Meet the team members.</p>
+        </div>
         <div className="our-team-grid">
           <motion.div
             className="each-team"
@@ -438,8 +441,12 @@ const App = () => {
             transition={{ delay: 0.1, type: 'spring' }}
             viewport={{ once: true }}
           >
-            <div className="color-overlay">
-              <img src={emmanuel} alt="creative director profile" />
+            <div className="color-overlay-container">
+              <img
+                src={emmanuel}
+                alt="creative director profile"
+                className="color-overlay-container-img"
+              />
             </div>
             <h4>Okpala Emmanuel</h4>
             <h5>Creative Director</h5>
@@ -451,7 +458,7 @@ const App = () => {
             transition={{ delay: 0.2, type: 'spring' }}
             viewport={{ once: true }}
           >
-            <div className="color-overlay">
+            <div className="color-overlay-container">
               <img src={ronald} alt="project manager and colorist profile" />
             </div>
             <h4>Nnadiukwu Ronald</h4>
@@ -464,7 +471,7 @@ const App = () => {
             transition={{ delay: 0.3, type: 'spring' }}
             viewport={{ once: true }}
           >
-            <div className="color-overlay">
+            <div className="color-overlay-container">
               <img src={emordi} alt="strategy lead profile" />
             </div>
             <h4>Emmanuel Emordi</h4>
@@ -498,7 +505,7 @@ const App = () => {
             transition={{ delay: 0.5, type: 'spring' }}
             viewport={{ once: true }}
           >
-            <div className="color-overlay">
+            <div className="color-overlay-container">
               <img src={drone} alt="drone guy profile" />
             </div>
             <h4>Ovo Derhie</h4>
@@ -511,7 +518,7 @@ const App = () => {
             transition={{ delay: 0.6, type: 'spring' }}
             viewport={{ once: true }}
           >
-            <div className="color-overlay">
+            <div className="color-overlay-container">
               <img src={ebuka} alt="photographer profile" />
             </div>
             <h4>Onyewuchi Ebuka</h4>
@@ -524,20 +531,12 @@ const App = () => {
             transition={{ delay: 0.7, type: 'spring' }}
             viewport={{ once: true }}
           >
-            <div className="color-overlay">
+            <div className="color-overlay-container">
               <img src={joseph} alt="frontend developer profile" />
             </div>
 
-            <h4 style={{ fontSize: '1.6rem' }}>Okpala Joseph</h4>
-            <h5
-              style={{
-                fontSize: '1rem',
-                marginBottom: '3rem',
-                fontWeight: '400',
-              }}
-            >
-              Frontend Developer
-            </h5>
+            <h4>Okpala Joseph</h4>
+            <h5>Frontend Developer</h5>
           </motion.div>
         </div>
       </div>

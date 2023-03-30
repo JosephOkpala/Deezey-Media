@@ -257,9 +257,97 @@ nav {
   -webkit-filter: grayscale(0);
 }
 
-/*             Our Team Styles               */
+/*             Our Team Styles START              */
 
 .our-team {
+  margin-bottom: 6rem;
+  position: relative;
+}
+
+.our-team-text {
+  width: 95%;
+  margin: 0 auto 4rem auto;
+}
+
+.our-team-text h3 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.our-team-text p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.our-team-grid {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.color-overlay-container img {
+  width: 80%;
+  position: relative;
+}
+
+.color-overlay-container {
+  position: relative;
+}
+
+.color-overlay-container::after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 10%;
+  width: 80%;
+  height: 99%;
+  background-color: rgba(248, 51, 51, 0.8);
+  mix-blend-mode: multiply;
+  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+}
+
+.color-overlay-container:hover::after {
+  background-color: #ffffff;
+}
+
+.each-team h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.each-team h5 {
+  margin-bottom: 3.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.something {
+  border: 1px solid cyan;
+}
+
+.color-overlay-container {
+  position: relative;
+  width: 100%;
+}
+
+/* .color-overlay-container::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background-color: rgba(248, 51, 51, 0.8);
+  mix-blend-mode: multiply;
+} */
+
+/* .our-team {
   max-width: 1660px;
   width: 90%;
   margin: 0 auto 5rem auto;
@@ -332,7 +420,9 @@ nav {
 
 .align-left h5 {
   text-align: left;
-}
+} */
+
+/*             Our Team Styles END              */
 
 /*             Footer styles                 */
 
@@ -448,6 +538,8 @@ footer {
 
   .our-team-grid {
     grid-template-columns: 1fr;
+    /* place-items: center;
+    text-align: center; */
   }
 
   footer {

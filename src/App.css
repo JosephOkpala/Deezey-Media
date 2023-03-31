@@ -526,6 +526,7 @@ footer {
 
   .footer-container h1 a::before {
     left: 0px;
+    bottom: 8px;
   }
 }
 

@@ -170,6 +170,7 @@ nav {
 
 .each-services-container {
   width: 100%;
+  margin-bottom: 7rem;
 }
 
 .each-services-div {
@@ -186,9 +187,38 @@ nav {
 }
 
 .each-services-div h2 {
-  font-size: 4rem;
+  font-size: 3.8rem;
   font-weight: 900;
 }
+
+.each-services-div p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 3rem;
+  line-height: 1.5;
+}
+
+.each-service-span-text1 {
+  display: block;
+}
+
+.each-service-span-text2 {
+  display: block;
+}
+
+/* div span {
+  position: relative;
+}
+
+div span::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  bottom: 11px;
+  background-color: red;
+  z-index: -1;
+} */
 
 /* .services-page {
   width: 90%;
@@ -233,14 +263,6 @@ nav {
 
 .each-service p {
   margin-bottom: 1rem;
-}
-
-.each-service ul li {
-  list-style: none;
-  display: inline-block;
-  background-color: black;
-  color: white;
-  padding: 0.3rem;
 }
 
 .each-service ul li:not(:last-child) {
@@ -400,9 +422,9 @@ footer {
   left: 9px;
   opacity: 0.8;
   background-color: red;
-  transition: 0.1s ease-in-out;
-  -moz-transition: 0.1s ease-in-out;
-  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
 }
 
 .footer-container h1 a:hover::before {
@@ -476,10 +498,6 @@ footer {
     display: block;
   }
 
-  /* .home-page {
-    height: 60vh;
-  } */
-
   .home-page h1 {
     font-size: 2.7rem;
     line-height: 5.1rem;
@@ -490,9 +508,8 @@ footer {
     margin-top: 7rem;
   }
 
-  .each-services-grid {
-    display: grid;
-    grid-template-columns: 1fr;
+  .each-services-div h2 {
+    font-size: 2rem;
   }
 
   .clients-page {
@@ -502,8 +519,6 @@ footer {
 
   .our-team-grid {
     grid-template-columns: 1fr;
-    /* place-items: center;
-    text-align: center; */
   }
 
   footer {
@@ -513,6 +528,17 @@ footer {
 
   .footer-container h1 {
     font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .each-services-div p {
+  }
+}
+
+@media (min-width: 768px) and (max-width: 860px) {
+  .each-services-div h2 {
+    font-size: 3.5rem;
   }
 }
 
@@ -534,6 +560,15 @@ footer {
   }
   .footer-cont {
     gap: 5rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .each-services-images img {
+    width: 50%;
+  }
+  .hide-mobile {
+    display: none;
   }
 }
 

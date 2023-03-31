@@ -22,7 +22,7 @@ import emordi from './img/emordi.png';
 // import precious from './img/precious.png';
 import drone from './img/drone-guy.png';
 import ebuka from './img/ebuka.png';
-import joseph from './img/josephh.png';
+import joseph from './img/joseph.png';
 import deezey from './img/Deezey-Media-Logo-footer.png';
 import facebook from './img/facebook.png';
 import instagram from './img/instagram.png';
@@ -30,6 +30,7 @@ import twitter from './img/twitter.png';
 import linkedin from './img/linkedin.png';
 import tiktok from './img/tik-tok.png';
 import emmanuell from './img/emmanuel-landscape.png';
+import josephh from './img/joseph-landscape.png';
 import './App.css';
 
 const Home = () => {
@@ -180,19 +181,126 @@ const App = () => {
         <div className="each-services-container">
           <div className="each-services-div">
             <h2 style={{ marginBottom: '0.7rem' }}>
-              <span style={{ display: 'block' }}>Creating content that</span>
-              <span> drives people</span>
+              <div>
+                <span className="each-service-span-text1">ENGAGING AND</span>
+                <span className="each-service-span-text2">
+                  {' '}
+                  COMPELLING CONTENTS
+                </span>
+              </div>
             </h2>
-            <p style={{ width: '500px', marginBottom: '3rem' }}>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
-              assumenda nesciunt. Sint quod iure omnis corporis repellendus
-              laudantium modi id tenetur quibusdam est, neque quam?.
+            <p>
+              No matter the scale and content type, we are the right partners to
+              carry out your creative needs.
             </p>
           </div>
           <div className="each-services-images">
             <img src={emmanuell} alt="" />
             <img src={emmanuell} alt="" />
+            <img src={emmanuell} alt="" className="hide-mobile" />
+          </div>
+        </div>
+        <div className="each-services-container">
+          <div className="each-services-div">
+            <h2 style={{ marginBottom: '0.7rem' }}>
+              <div>
+                <span className="each-service-span-text1">
+                  DELIVERING THE BEST
+                </span>
+                <span className="each-service-span-text2"> VALUE UNIQUELY</span>
+              </div>
+            </h2>
+            <p>
+              We Combine the right media buying plan as well as unique content
+              marketing techniques to capture our client’s audiences in the
+              campaigns we launch.
+            </p>
+          </div>
+          <div className="each-services-images">
+            <img src={josephh} alt="" />
+            <img src={josephh} alt="" />
+            <img src={josephh} alt="" className="hide-mobile" />
+          </div>
+        </div>
+        <div className="each-services-container">
+          <div className="each-services-div">
+            <h2 style={{ marginBottom: '0.7rem' }}>
+              <div>
+                <span className="each-service-span-text1">LONG LASTING</span>
+                <span className="each-service-span-text2"> VISUAL ASSETS</span>
+              </div>
+            </h2>
+            <p>
+              Our branding service helps your business establish a clear and
+              consistent identity that sets your brand apart from competitors.
+            </p>
+          </div>
+          <div className="each-services-images">
             <img src={emmanuell} alt="" />
+            <img src={emmanuell} alt="" />
+            <img src={emmanuell} alt="" className="hide-mobile" />
+          </div>
+        </div>
+        <div className="each-services-container">
+          <div className="each-services-div">
+            <h2 style={{ marginBottom: '0.7rem' }}>
+              <div>
+                <span className="each-service-span-text1">CREATING GOOD </span>
+                <span className="each-service-span-text2"> IMPRESSION</span>
+              </div>
+            </h2>
+            <p>
+              Our web design services are tailored to create visually stunning
+              and user-friendly websites that effectively communicate our
+              clients’ brand message.
+            </p>
+          </div>
+          <div className="each-services-images">
+            <img src={josephh} alt="" />
+            <img src={josephh} alt="" />
+            <img src={josephh} alt="" className="hide-mobile" />
+          </div>
+        </div>
+        <div className="each-services-container">
+          <div className="each-services-div">
+            <h2 style={{ marginBottom: '0.7rem' }}>
+              <div>
+                <span className="each-service-span-text1">Podcast </span>
+                <span className="each-service-span-text2"> </span>
+              </div>
+            </h2>
+            <p>
+              Our In-house podcast production is bent on producing daring and
+              captivating audio and video content that captures our client’s
+              audience and share their journey.
+            </p>
+          </div>
+          <div className="each-services-images">
+            <img src={emmanuell} alt="" />
+            <img src={emmanuell} alt="" />
+            <img src={emmanuell} alt="" className="hide-mobile" />
+          </div>
+        </div>
+        <div className="each-services-container">
+          <div className="each-services-div">
+            <h2 style={{ marginBottom: '0.7rem' }}>
+              <div>
+                <span className="each-service-span-text1">ACHIEVING YOUR</span>
+                <span className="each-service-span-text2">
+                  {' '}
+                  MARKETING GOALS
+                </span>
+              </div>
+            </h2>
+            <p>
+              As a startup or a 50-year-old legacy company, we are open to
+              strategizing on ways to help build and optimize your brand.
+            </p>
+          </div>
+          <div className="each-services-images">
+            <img src={emmanuell} alt="" />
+            <img src={emmanuell} alt="" />
+            <img src={emmanuell} alt="" className="hide-mobile" />
           </div>
         </div>
       </section>

@@ -79,8 +79,6 @@ const App = () => {
     });
   };
 
-  // const { scrollYProgress } = useScroll();
-
   return (
     <div className="App">
       {/* <Navbar /> */}
@@ -149,7 +147,7 @@ const App = () => {
               transition={{ type: 'spring' }}
               viewport={{ once: true }}
             >
-              <span className="about-stroke">About</span> Us
+              Why we are awesome!
             </motion.h2>
             <p>
               As digital content and media evolves, we are finding the best ways
@@ -170,14 +168,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <section className="services-section">
-        {/* <div className="service-section-text">
-          <h2>Services</h2>
-          <p>
-            Whether you have a new startup or an established business we are
-            here to help.
-          </p>
-        </div> */}
+      <section ref={services} className="services-section">
         <div className="each-services-container">
           <div className="each-services-div">
             <h2 style={{ marginBottom: '0.7rem' }}>
@@ -259,26 +250,6 @@ const App = () => {
             <img src={josephh} alt="" />
             <img src={josephh} alt="" />
             <img src={josephh} alt="" className="hide-mobile" />
-          </div>
-        </div>
-        <div className="each-services-container">
-          <div className="each-services-div">
-            <h2 style={{ marginBottom: '0.7rem' }}>
-              <div>
-                <span className="each-service-span-text1">Podcast </span>
-                <span className="each-service-span-text2"> </span>
-              </div>
-            </h2>
-            <p>
-              Our In-house podcast production is bent on producing daring and
-              captivating audio and video content that captures our client’s
-              audience and share their journey.
-            </p>
-          </div>
-          <div className="each-services-images">
-            <img src={emmanuell} alt="" />
-            <img src={emmanuell} alt="" />
-            <img src={emmanuell} alt="" className="hide-mobile" />
           </div>
         </div>
         <div className="each-services-container">
@@ -424,7 +395,10 @@ const App = () => {
       <div className="our-team" ref={team}>
         <div className="our-team-text">
           <h3>Our Team</h3>
-          <p>Meet the team members.</p>
+          <p>
+            Our team of experts is devoted to creating effective campaigns that
+            drive results for your business..
+          </p>
         </div>
         <div className="our-team-grid">
           <motion.div

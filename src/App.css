@@ -70,7 +70,7 @@ nav {
   width: 2.2rem;
   height: 0.2rem;
   background-color: hsla(240, 8%, 15%, 1);
-  border-radius: 12px;
+  border-radius: 20px;
   transition: 0.5s ease;
 }
 
@@ -121,7 +121,7 @@ nav {
   background-color: black;
   border: 2px solid black;
   color: white;
-  margin-bottom: 3rem;
+  margin-bottom: 8rem;
   /* height: 50vh; */
 }
 
@@ -152,20 +152,6 @@ nav {
 
 .services-section {
   margin-bottom: 10rem;
-}
-
-.service-section-text {
-  width: 90%;
-  margin: 0 auto 4rem auto;
-}
-
-.service-section-text h2 {
-  font-size: 3.5rem;
-  font-weight: 800;
-}
-
-.service-section-text p {
-  font-size: 1.1rem;
 }
 
 .each-services-container {
@@ -217,8 +203,6 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
-  /* display: flex;
-  justify-content: space-around; */
 }
 
 .clients-page img {
@@ -248,18 +232,19 @@ nav {
 }
 
 .our-team-text {
-  width: 95%;
+  width: 90%;
   margin: 0 auto 4rem auto;
 }
 
 .our-team-text h3 {
-  font-size: 3rem;
+  font-size: 3.6rem;
   font-weight: 900;
 }
 
 .our-team-text p {
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  max-width: 600px;
+  line-height: 1.5;
 }
 
 .our-team-grid {
@@ -363,6 +348,7 @@ footer {
 }
 
 .footer-cont {
+  max-width: 1660px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -402,10 +388,6 @@ footer {
   margin-bottom: 1.3rem;
 }
 
-/* .align {
-  text-align: left;
-} */
-
 /*             Media styles here            */
 
 @media (max-width: 767px) {
@@ -443,6 +425,10 @@ footer {
     font-size: 2rem;
   }
 
+  .our-team-text h3 {
+    font-size: 2.4rem;
+  }
+
   .clients-page {
     grid-template-columns: 1fr 1fr;
     text-align: center;
@@ -462,13 +448,12 @@ footer {
   }
 }
 
-@media (max-width: 560px) {
-  .each-services-div p {
-  }
-}
-
 @media (min-width: 768px) and (max-width: 860px) {
   .each-services-div h2 {
+    font-size: 3.5rem;
+  }
+
+  .our-team-text h3 {
     font-size: 3.5rem;
   }
 }

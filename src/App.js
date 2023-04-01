@@ -31,6 +31,7 @@ import linkedin from './img/linkedin.png';
 import tiktok from './img/tik-tok.png';
 import emmanuell from './img/emmanuel-landscape.png';
 import josephh from './img/joseph-landscape.png';
+import testVideo from './img/test-video.mp4';
 import './App.css';
 
 const Home = () => {
@@ -169,17 +170,41 @@ const App = () => {
         </div>
       </div>
       <section ref={services} className="services-section">
-        <div className="each-services-container">
-          <div className="each-services-div">
-            <h2 style={{ marginBottom: '0.7rem' }}>
-              <div>
-                <span className="each-service-span-text1">ENGAGING AND</span>
-                <span className="each-service-span-text2">
-                  {' '}
-                  COMPELLING CONTENTS
-                </span>
+        <div style={{ marginBottom: '18rem' }}>
+          <div className="video-text">
+            <div
+              className="each-services-div"
+              style={{ position: 'relative', marginBottom: '4rem' }}
+            >
+              <video src={testVideo} autoPlay muted loop></video>
+              <div
+                style={{
+                  position: 'absolute',
+                  bottom: '-2.4rem',
+                }}
+              >
+                <h2
+                  style={{
+                    marginBottom: '0.7rem',
+                    marginLeft: '3rem',
+                  }}
+                >
+                  <div
+                    style={{
+                      backgroundColor: 'white',
+                      borderTopRightRadius: '100px',
+                      padding: '0 3rem 0 2rem',
+                    }}
+                  >
+                    <span className="each-service-span-text1">We create</span>
+                    <span className="each-service-span-text2">
+                      {' '}
+                      engaging contents.
+                    </span>
+                  </div>
+                </h2>
               </div>
-            </h2>
+            </div>
             <p>
               No matter the scale and content type, we are the right partners to
               carry out your creative needs.
@@ -191,16 +216,43 @@ const App = () => {
             <img src={emmanuell} alt="" className="hide-mobile" />
           </div>
         </div>
-        <div className="each-services-container">
-          <div className="each-services-div">
-            <h2 style={{ marginBottom: '0.7rem' }}>
-              <div>
-                <span className="each-service-span-text1">
-                  DELIVERING THE BEST
-                </span>
-                <span className="each-service-span-text2"> VALUE UNIQUELY</span>
+        <div style={{ marginBottom: '18rem' }}>
+          <div className="video-text">
+            <div
+              className="each-services-div"
+              style={{ position: 'relative', marginBottom: '4rem' }}
+            >
+              <video src={testVideo} autoPlay muted loop></video>
+              <div
+                style={{
+                  position: 'absolute',
+                  bottom: '-2.4rem',
+                }}
+              >
+                <h2
+                  style={{
+                    marginBottom: '0.7rem',
+                    marginLeft: '3rem',
+                  }}
+                >
+                  <div
+                    style={{
+                      backgroundColor: 'white',
+                      borderTopRightRadius: '100px',
+                      padding: '0 3rem 0 2rem',
+                    }}
+                  >
+                    <span className="each-service-span-text1">
+                      Delivering the best
+                    </span>
+                    <span className="each-service-span-text2">
+                      {' '}
+                      value uniquely.
+                    </span>
+                  </div>
+                </h2>
               </div>
-            </h2>
+            </div>
             <p>
               We Combine the right media buying plan as well as unique content
               marketing techniques to capture our client’s audiences in the
@@ -213,14 +265,43 @@ const App = () => {
             <img src={josephh} alt="" className="hide-mobile" />
           </div>
         </div>
-        <div className="each-services-container">
-          <div className="each-services-div">
-            <h2 style={{ marginBottom: '0.7rem' }}>
-              <div>
-                <span className="each-service-span-text1">LONG LASTING</span>
-                <span className="each-service-span-text2"> VISUAL ASSETS</span>
+        <div style={{ marginBottom: '18rem' }}>
+          <div className="video-text">
+            <div
+              className="each-services-div"
+              style={{ position: 'relative', marginBottom: '4rem' }}
+            >
+              <video src={testVideo} autoPlay muted loop></video>
+              <div
+                style={{
+                  position: 'absolute',
+                  bottom: '-2.4rem',
+                }}
+              >
+                <h2
+                  style={{
+                    marginBottom: '0.7rem',
+                    marginLeft: '3rem',
+                  }}
+                >
+                  <div
+                    style={{
+                      backgroundColor: 'white',
+                      borderTopRightRadius: '100px',
+                      padding: '0 3rem 0 2rem',
+                    }}
+                  >
+                    <span className="each-service-span-text1">
+                      Long lasting
+                    </span>
+                    <span className="each-service-span-text2">
+                      {' '}
+                      visual assets.
+                    </span>
+                  </div>
+                </h2>
               </div>
-            </h2>
+            </div>
             <p>
               Our branding service helps your business establish a clear and
               consistent identity that sets your brand apart from competitors.
@@ -232,18 +313,47 @@ const App = () => {
             <img src={emmanuell} alt="" className="hide-mobile" />
           </div>
         </div>
-        <div className="each-services-container">
-          <div className="each-services-div">
-            <h2 style={{ marginBottom: '0.7rem' }}>
-              <div>
-                <span className="each-service-span-text1">CREATING GOOD </span>
-                <span className="each-service-span-text2"> IMPRESSION</span>
+        <div style={{ marginBottom: '18rem' }}>
+          <div className="video-text">
+            <div
+              className="each-services-div"
+              style={{ position: 'relative', marginBottom: '4rem' }}
+            >
+              <video src={testVideo} autoPlay muted loop></video>
+              <div
+                style={{
+                  position: 'absolute',
+                  bottom: '-2.4rem',
+                }}
+              >
+                <h2
+                  style={{
+                    marginBottom: '0.7rem',
+                    marginLeft: '3rem',
+                  }}
+                >
+                  <div
+                    style={{
+                      backgroundColor: 'white',
+                      borderTopRightRadius: '100px',
+                      padding: '0 3rem 0 2rem',
+                    }}
+                  >
+                    <span className="each-service-span-text1">
+                      Creating good
+                    </span>
+                    <span className="each-service-span-text2">
+                      {' '}
+                      impressions.
+                    </span>
+                  </div>
+                </h2>
               </div>
-            </h2>
+            </div>
             <p>
               Our web design services are tailored to create visually stunning
               and user-friendly websites that effectively communicate our
-              clients’ brand message.
+              client’s brand message.
             </p>
           </div>
           <div className="each-services-images">
@@ -252,26 +362,96 @@ const App = () => {
             <img src={josephh} alt="" className="hide-mobile" />
           </div>
         </div>
-        <div className="each-services-container">
-          <div className="each-services-div">
-            <h2 style={{ marginBottom: '0.7rem' }}>
-              <div>
-                <span className="each-service-span-text1">ACHIEVING YOUR</span>
-                <span className="each-service-span-text2">
-                  {' '}
-                  MARKETING GOALS
-                </span>
+        <div style={{ marginBottom: '18rem' }}>
+          <div className="video-text">
+            <div
+              className="each-services-div"
+              style={{ position: 'relative', marginBottom: '4rem' }}
+            >
+              <video src={testVideo} autoPlay muted loop></video>
+              <div
+                style={{
+                  position: 'absolute',
+                  bottom: '-2.4rem',
+                }}
+              >
+                <h2
+                  style={{
+                    marginBottom: '0.7rem',
+                    marginLeft: '3rem',
+                  }}
+                >
+                  <div
+                    style={{
+                      backgroundColor: 'white',
+                      borderTopRightRadius: '100px',
+                      padding: '0 3rem 0 2rem',
+                    }}
+                  >
+                    <span className="each-service-span-text1">Podcast</span>
+                    {/* <span className="each-service-span-text2"> .</span> */}
+                  </div>
+                </h2>
               </div>
-            </h2>
+            </div>
             <p>
-              As a startup or a 50-year-old legacy company, we are open to
-              strategizing on ways to help build and optimize your brand.
+              Our in-house podcast production is bent on producing daring and
+              captivating audio and video content that captures our client's
+              audience and share their journey.
             </p>
           </div>
           <div className="each-services-images">
             <img src={emmanuell} alt="" />
             <img src={emmanuell} alt="" />
             <img src={emmanuell} alt="" className="hide-mobile" />
+          </div>
+        </div>
+        <div style={{ marginBottom: '15rem' }}>
+          <div className="video-text">
+            <div
+              className="each-services-div"
+              style={{ position: 'relative', marginBottom: '4rem' }}
+            >
+              <video src={testVideo} autoPlay muted loop></video>
+              <div
+                style={{
+                  position: 'absolute',
+                  bottom: '-2.4rem',
+                }}
+              >
+                <h2
+                  style={{
+                    marginBottom: '0.7rem',
+                    marginLeft: '3rem',
+                  }}
+                >
+                  <div
+                    style={{
+                      backgroundColor: 'white',
+                      borderTopRightRadius: '100px',
+                      padding: '0 3rem 0 2rem',
+                    }}
+                  >
+                    <span className="each-service-span-text1">
+                      Achieving your
+                    </span>
+                    <span className="each-service-span-text2">
+                      {' '}
+                      marketing goals.
+                    </span>
+                  </div>
+                </h2>
+              </div>
+            </div>
+            <p>
+              As a startup or a 50-year-old legacy company, we are open to
+              strategizing on ways to build and optimize your brand.
+            </p>
+          </div>
+          <div className="each-services-images">
+            <img src={josephh} alt="" />
+            <img src={josephh} alt="" />
+            <img src={josephh} alt="" className="hide-mobile" />
           </div>
         </div>
       </section>
@@ -459,7 +639,7 @@ const App = () => {
             <h5>Frontend Developer</h5>
           </motion.div>
           {/* <motion.div
-          className='each-team'
+            className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.4, type: 'spring' }}

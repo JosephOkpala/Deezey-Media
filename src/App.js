@@ -167,6 +167,7 @@ const App = () => {
                   playing
                   loop
                   muted
+                  controls={true}
                   width="100%"
                   height="100%"
                   style={{

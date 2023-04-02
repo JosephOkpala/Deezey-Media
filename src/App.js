@@ -72,6 +72,7 @@ const App = () => {
   const services = useRef(null);
   const team = useRef(null);
   const portfolio = useRef(null);
+  const footer = useRef(null);
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -125,15 +126,14 @@ const App = () => {
               >
                 Team
               </motion.li>
-              <a href="mailto:deezeymedia@gmail.com">
-                <motion.li
-                  initial={{ y: 30, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  transition={{ delay: 0.54, type: 'spring' }}
-                >
-                  Contact Us
-                </motion.li>
-              </a>
+              <motion.li
+                initial={{ y: 30, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.54, type: 'spring' }}
+                onClick={() => scrollToSection(footer)}
+              >
+                Contact Us
+              </motion.li>
             </ul>
           </div>
         </nav>
@@ -151,20 +151,11 @@ const App = () => {
               Why we are awesome!
             </motion.h2>
             <p>
-              As digital content and media evolves, we are finding the best ways
-              to tell brand stories and captivate audiences. Through visual
-              storytelling and the use of technology, we are dedicated to
-              providing the best value for the consumers and brands we work
-              with. We are not AD men; We are adopters of the digital age; film
-              makers, creators, technologists, writers, animators,
-              photographers, marketers, storytellers, in the business of
-              influencing culture and fostering progress for our clients and
-              consumers.
-            </p>
-            <p>
-              Consider our partnership as an extension of your marketing
-              department; from conceiving the idea, to creating the story, and
-              ultimately, fueling the conversation.
+              Deezey media is primarily a content creation company Creative
+              Agency and Production Company combined Whatever your brief,
+              whether it’s a TV commercial, corporate video, brand film or
+              animation, at the core of every great piece of advertising is a
+              good idea and a well-crafted script.
             </p>
           </div>
         </div>
@@ -186,16 +177,10 @@ const App = () => {
                 <h2
                   style={{
                     marginBottom: '0.7rem',
-                    marginLeft: '3rem',
+                    // marginLeft: '3rem',
                   }}
                 >
-                  <div
-                    style={{
-                      backgroundColor: 'white',
-                      borderTopRightRadius: '100px',
-                      padding: '0 3rem 0 2rem',
-                    }}
-                  >
+                  <div>
                     <span className="each-service-span-text1">We create</span>
                     <span className="each-service-span-text2">
                       {' '}
@@ -232,16 +217,10 @@ const App = () => {
                 <h2
                   style={{
                     marginBottom: '0.7rem',
-                    marginLeft: '3rem',
+                    // marginLeft: '3rem',
                   }}
                 >
-                  <div
-                    style={{
-                      backgroundColor: 'white',
-                      borderTopRightRadius: '100px',
-                      padding: '0 3rem 0 2rem',
-                    }}
-                  >
+                  <div>
                     <span className="each-service-span-text1">
                       Delivering the best
                     </span>
@@ -281,16 +260,10 @@ const App = () => {
                 <h2
                   style={{
                     marginBottom: '0.7rem',
-                    marginLeft: '3rem',
+                    // marginLeft: '3rem',
                   }}
                 >
-                  <div
-                    style={{
-                      backgroundColor: 'white',
-                      borderTopRightRadius: '100px',
-                      padding: '0 3rem 0 2rem',
-                    }}
-                  >
+                  <div>
                     <span className="each-service-span-text1">
                       Long lasting
                     </span>
@@ -329,16 +302,10 @@ const App = () => {
                 <h2
                   style={{
                     marginBottom: '0.7rem',
-                    marginLeft: '3rem',
+                    // marginLeft: '3rem',
                   }}
                 >
-                  <div
-                    style={{
-                      backgroundColor: 'white',
-                      borderTopRightRadius: '100px',
-                      padding: '0 3rem 0 2rem',
-                    }}
-                  >
+                  <div>
                     <span className="each-service-span-text1">
                       Creating good
                     </span>
@@ -378,16 +345,10 @@ const App = () => {
                 <h2
                   style={{
                     marginBottom: '0.7rem',
-                    marginLeft: '3rem',
+                    // marginLeft: '3rem',
                   }}
                 >
-                  <div
-                    style={{
-                      backgroundColor: 'white',
-                      borderTopRightRadius: '100px',
-                      padding: '0 3rem 0 2rem',
-                    }}
-                  >
+                  <div>
                     <span className="each-service-span-text1">Podcast</span>
                     {/* <span className="each-service-span-text2"> .</span> */}
                   </div>
@@ -422,16 +383,10 @@ const App = () => {
                 <h2
                   style={{
                     marginBottom: '0.7rem',
-                    marginLeft: '3rem',
+                    // marginLeft: '3rem',
                   }}
                 >
-                  <div
-                    style={{
-                      backgroundColor: 'white',
-                      borderTopRightRadius: '100px',
-                      padding: '0 3rem 0 2rem',
-                    }}
-                  >
+                  <div>
                     <span className="each-service-span-text1">
                       Achieving your
                     </span>
@@ -687,7 +642,7 @@ const App = () => {
           </motion.div>
         </div>
       </div>
-      <footer className="footer">
+      <footer className="footer" ref={footer}>
         <div className="footer-container">
           <motion.h1>
             <span style={{ fontWeight: '300' }}>Ready to get Started?</span>

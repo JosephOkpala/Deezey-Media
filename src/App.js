@@ -163,7 +163,7 @@ const App = () => {
             <div className="each-services-div">
               <div className="video-background">
                 <ReactPlayer
-                  url="https://vimeo.com/811740068"
+                  url="https://vimeo.com/814035145"
                   playing
                   loop
                   muted
@@ -211,7 +211,7 @@ const App = () => {
             <div className="each-services-div" style={{ position: 'relative' }}>
               <div className="video-background">
                 <ReactPlayer
-                  url="https://vimeo.com/811740068"
+                  url="https://vimeo.com/814035145"
                   playing
                   loop
                   muted
@@ -262,7 +262,7 @@ const App = () => {
             <div className="each-services-div" style={{ position: 'relative' }}>
               <div className="video-background">
                 <ReactPlayer
-                  url="https://vimeo.com/811740068"
+                  url="https://vimeo.com/814035145"
                   playing
                   loop
                   muted
@@ -312,7 +312,7 @@ const App = () => {
             <div className="each-services-div" style={{ position: 'relative' }}>
               <div className="video-background">
                 <ReactPlayer
-                  url="https://vimeo.com/811740068"
+                  url="https://vimeo.com/814035145"
                   playing
                   loop
                   muted
@@ -363,7 +363,7 @@ const App = () => {
             <div className="each-services-div" style={{ position: 'relative' }}>
               <div className="video-background">
                 <ReactPlayer
-                  url="https://vimeo.com/811740068"
+                  url="https://vimeo.com/814035145"
                   playing
                   loop
                   muted
@@ -410,7 +410,7 @@ const App = () => {
             <div className="each-services-div" style={{ position: 'relative' }}>
               <div className="video-background">
                 <ReactPlayer
-                  url="https://vimeo.com/811740068"
+                  url="https://vimeo.com/814035145"
                   playing
                   loop
                   muted

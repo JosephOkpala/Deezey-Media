@@ -1,0 +1,28 @@
+/*           clients page styles           */
+
+.clients-page {
+  max-width: 1660px;
+  width: 90%;
+  margin: 0 auto 8rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.clients-page img {
+  max-width: 100%;
+  width: 140px;
+  height: 75px;
+  object-fit: contain;
+  cursor: pointer;
+  margin-bottom: 3rem;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.clients-page img:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}

@@ -1,7 +1,5 @@
 import { useRef } from 'react';
 import ReactPlayer from 'react-player';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
 import logodark from './img/Deezey-media-logo.png';
 import threeline from './img/3Line.png';
@@ -34,7 +32,14 @@ import linkedin from './img/linkedin.png';
 import tiktok from './img/tik-tok.png';
 import emmanuell from './img/emmanuel-landscape.png';
 import josephh from './img/joseph-landscape.png';
+import './Home.css';
+import './About.css';
+import './Services.css';
+import './Clients.css';
+import './Team.css';
+import './Footer.css';
 import './App.css';
+import './Media.css';
 
 const Home = () => {
   return (
@@ -163,26 +168,31 @@ const App = () => {
         </div>
       </div>
       <section ref={services} className="services-section">
-        <div style={{ marginBottom: '18rem' }}>
-          <div className="video-text">
-            <div
-              className="each-services-div"
-              style={{ position: 'relative', marginBottom: '4rem' }}
-            >
-              <div className="video-background">
+        <div
+          className="services-section-div"
+          style={{ border: '1px solid red' }}
+        >
+          <div className="video-text" style={{ border: '2px solid green' }}>
+            <div className="each-services-div" style={{ position: 'relative' }}>
+              <div
+                className="video-background"
+                style={{ border: '2px solid cyan' }}
+              >
                 <ReactPlayer
                   url="https://vimeo.com/811740068"
                   playing
                   loop
                   muted
-                  // light={true}
-                  // playIcon={<FontAwesomeIcon icon={faPlayCircle} size="5x" />}
                   width="100%"
                   height="100%"
-                  style={{ position: 'absolute', top: 0, left: 0 }}
+                  style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    border: '2px solid black',
+                  }}
                 />
               </div>
-              {/* <video src={testVideo} autoPlay muted loop></video> */}
               <div
                 style={{
                   position: 'absolute',
@@ -200,10 +210,12 @@ const App = () => {
                 </h2>
               </div>
             </div>
-            <p>
-              No matter the scale and content type, we are the right partners to
-              carry out your creative needs.
-            </p>
+            <div className="video-text-divp">
+              <p>
+                No matter the scale and content type, we are the right partners
+                to carry out your creative needs.
+              </p>
+            </div>
           </div>
           <div className="each-services-images">
             <img src={emmanuell} alt="" />
@@ -211,12 +223,9 @@ const App = () => {
             <img src={emmanuell} alt="" className="hide-mobile" />
           </div>
         </div>
-        <div style={{ marginBottom: '18rem' }}>
+        <div className="services-section-div">
           <div className="video-text">
-            <div
-              className="each-services-div"
-              style={{ position: 'relative', marginBottom: '4rem' }}
-            >
+            <div className="each-services-div" style={{ position: 'relative' }}>
               <div className="video-background">
                 <ReactPlayer
                   url="https://vimeo.com/811740068"
@@ -253,11 +262,13 @@ const App = () => {
                 </h2>
               </div>
             </div>
-            <p>
-              We Combine the right media buying plan as well as unique content
-              marketing techniques to capture our client’s audiences in the
-              campaigns we launch.
-            </p>
+            <div className="video-text-divp">
+              <p>
+                We Combine the right media buying plan as well as unique content
+                marketing techniques to capture our client’s audiences in the
+                campaigns we launch.
+              </p>
+            </div>
           </div>
           <div className="each-services-images">
             <img src={josephh} alt="" />
@@ -265,12 +276,9 @@ const App = () => {
             <img src={josephh} alt="" className="hide-mobile" />
           </div>
         </div>
-        <div style={{ marginBottom: '18rem' }}>
+        <div className="services-section-div">
           <div className="video-text">
-            <div
-              className="each-services-div"
-              style={{ position: 'relative', marginBottom: '4rem' }}
-            >
+            <div className="each-services-div" style={{ position: 'relative' }}>
               <div className="video-background">
                 <ReactPlayer
                   url="https://vimeo.com/811740068"
@@ -307,10 +315,12 @@ const App = () => {
                 </h2>
               </div>
             </div>
-            <p>
-              Our branding service helps your business establish a clear and
-              consistent identity that sets your brand apart from competitors.
-            </p>
+            <div className="video-text-divp">
+              <p>
+                Our branding service helps your business establish a clear and
+                consistent identity that sets your brand apart from competitors.
+              </p>
+            </div>
           </div>
           <div className="each-services-images">
             <img src={emmanuell} alt="" />
@@ -318,12 +328,9 @@ const App = () => {
             <img src={emmanuell} alt="" className="hide-mobile" />
           </div>
         </div>
-        <div style={{ marginBottom: '18rem' }}>
+        <div className="services-section-div">
           <div className="video-text">
-            <div
-              className="each-services-div"
-              style={{ position: 'relative', marginBottom: '4rem' }}
-            >
+            <div className="each-services-div" style={{ position: 'relative' }}>
               <div className="video-background">
                 <ReactPlayer
                   url="https://vimeo.com/811740068"
@@ -333,7 +340,7 @@ const App = () => {
                   // light={true}
                   // playIcon={<FontAwesomeIcon icon={faPlayCircle} size="5x" />}
                   width="100%"
-                  height="100%"
+                  height="100vh"
                   style={{ position: 'absolute', top: 0, left: 0 }}
                 />
               </div>
@@ -360,11 +367,13 @@ const App = () => {
                 </h2>
               </div>
             </div>
-            <p>
-              Our web design services are tailored to create visually stunning
-              and user-friendly websites that effectively communicate our
-              client’s brand message.
-            </p>
+            <div className="video-text-divp">
+              <p>
+                Our web design services are tailored to create visually stunning
+                and user-friendly websites that effectively communicate our
+                client’s brand message.
+              </p>
+            </div>
           </div>
           <div className="each-services-images">
             <img src={josephh} alt="" />
@@ -372,12 +381,9 @@ const App = () => {
             <img src={josephh} alt="" className="hide-mobile" />
           </div>
         </div>
-        <div style={{ marginBottom: '18rem' }}>
+        <div className="services-section-div">
           <div className="video-text">
-            <div
-              className="each-services-div"
-              style={{ position: 'relative', marginBottom: '4rem' }}
-            >
+            <div className="each-services-div" style={{ position: 'relative' }}>
               <div className="video-background">
                 <ReactPlayer
                   url="https://vimeo.com/811740068"
@@ -408,11 +414,15 @@ const App = () => {
                 </h2>
               </div>
             </div>
-            <p>
-              Our in-house podcast production is bent on producing daring and
-              captivating audio and video content that captures our client's
-              audience and share their journey.
-            </p>
+            <div>
+              <div className="video-text-divp">
+                <p>
+                  Our in-house podcast production is bent on producing daring
+                  and captivating audio and video content that captures our
+                  client's audience and share their journey.
+                </p>
+              </div>
+            </div>
           </div>
           <div className="each-services-images">
             <img src={emmanuell} alt="" />
@@ -420,12 +430,9 @@ const App = () => {
             <img src={emmanuell} alt="" className="hide-mobile" />
           </div>
         </div>
-        <div style={{ marginBottom: '15rem' }}>
+        <div className="services-section-div">
           <div className="video-text">
-            <div
-              className="each-services-div"
-              style={{ position: 'relative', marginBottom: '4rem' }}
-            >
+            <div className="each-services-div" style={{ position: 'relative' }}>
               <div className="video-background">
                 <ReactPlayer
                   url="https://vimeo.com/811740068"
@@ -462,10 +469,12 @@ const App = () => {
                 </h2>
               </div>
             </div>
-            <p>
-              As a startup or a 50-year-old legacy company, we are open to
-              strategizing on ways to build and optimize your brand.
-            </p>
+            <div className="video-text-divp">
+              <p>
+                As a startup or a 50-year-old legacy company, we are open to
+                strategizing on ways to build and optimize your brand.
+              </p>
+            </div>
           </div>
           <div className="each-services-images">
             <img src={josephh} alt="" />

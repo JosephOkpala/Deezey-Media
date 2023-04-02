@@ -1,0 +1,36 @@
+/*        home page styles        */
+
+.home-page {
+  height: 60vh;
+  width: 90%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.home-page div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.home-page h4 {
+  color: red;
+}
+
+.home-page h4::selection {
+  color: white;
+}
+
+.home-page h1 {
+  font-size: 4rem;
+  line-height: 6.7rem;
+  font-weight: 900;
+  /* max-width: 1100px; */
+}
+
+.home-page h1::selection {
+  color: white;
+  /* max-width: 1100px; */
+}

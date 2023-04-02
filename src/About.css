@@ -1,0 +1,33 @@
+/*         about page styles        */
+
+.about-page-cover {
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  margin-bottom: 8rem;
+  /* height: 50vh; */
+}
+
+.about-page {
+  width: 90%;
+  max-width: 1600px;
+  margin: 6rem auto;
+}
+
+.about-page div {
+  width: 100%;
+}
+
+.about-page div h2 {
+  font-size: 3.5rem;
+  color: white;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.about-page div p {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400;
+  max-width: 750px;
+}

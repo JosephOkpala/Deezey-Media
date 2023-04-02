@@ -1,4 +1,7 @@
 import { useRef } from 'react';
+import ReactPlayer from 'react-player';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
 import logodark from './img/Deezey-media-logo.png';
 import threeline from './img/3Line.png';
@@ -31,7 +34,6 @@ import linkedin from './img/linkedin.png';
 import tiktok from './img/tik-tok.png';
 import emmanuell from './img/emmanuel-landscape.png';
 import josephh from './img/joseph-landscape.png';
-import testVideo from './img/test-video.mp4';
 import './App.css';
 
 const Home = () => {
@@ -167,19 +169,27 @@ const App = () => {
               className="each-services-div"
               style={{ position: 'relative', marginBottom: '4rem' }}
             >
-              <video src={testVideo} autoPlay muted loop></video>
+              <div className="video-background">
+                <ReactPlayer
+                  url="https://vimeo.com/811740068"
+                  playing
+                  loop
+                  muted
+                  // light={true}
+                  // playIcon={<FontAwesomeIcon icon={faPlayCircle} size="5x" />}
+                  width="100%"
+                  height="100%"
+                  style={{ position: 'absolute', top: 0, left: 0 }}
+                />
+              </div>
+              {/* <video src={testVideo} autoPlay muted loop></video> */}
               <div
                 style={{
                   position: 'absolute',
                   bottom: '-2.4rem',
                 }}
               >
-                <h2
-                  style={{
-                    marginBottom: '0.7rem',
-                    // marginLeft: '3rem',
-                  }}
-                >
+                <h2>
                   <div>
                     <span className="each-service-span-text1">We create</span>
                     <span className="each-service-span-text2">
@@ -207,7 +217,19 @@ const App = () => {
               className="each-services-div"
               style={{ position: 'relative', marginBottom: '4rem' }}
             >
-              <video src={testVideo} autoPlay muted loop></video>
+              <div className="video-background">
+                <ReactPlayer
+                  url="https://vimeo.com/811740068"
+                  playing
+                  loop
+                  muted
+                  // light={true}
+                  // playIcon={<FontAwesomeIcon icon={faPlayCircle} size="5x" />}
+                  width="100%"
+                  height="100%"
+                  style={{ position: 'absolute', top: 0, left: 0 }}
+                />
+              </div>
               <div
                 style={{
                   position: 'absolute',
@@ -217,7 +239,6 @@ const App = () => {
                 <h2
                   style={{
                     marginBottom: '0.7rem',
-                    // marginLeft: '3rem',
                   }}
                 >
                   <div>
@@ -250,7 +271,19 @@ const App = () => {
               className="each-services-div"
               style={{ position: 'relative', marginBottom: '4rem' }}
             >
-              <video src={testVideo} autoPlay muted loop></video>
+              <div className="video-background">
+                <ReactPlayer
+                  url="https://vimeo.com/811740068"
+                  playing
+                  loop
+                  muted
+                  // light={true}
+                  // playIcon={<FontAwesomeIcon icon={faPlayCircle} size="5x" />}
+                  width="100%"
+                  height="100%"
+                  style={{ position: 'absolute', top: 0, left: 0 }}
+                />
+              </div>
               <div
                 style={{
                   position: 'absolute',
@@ -260,7 +293,6 @@ const App = () => {
                 <h2
                   style={{
                     marginBottom: '0.7rem',
-                    // marginLeft: '3rem',
                   }}
                 >
                   <div>
@@ -292,7 +324,19 @@ const App = () => {
               className="each-services-div"
               style={{ position: 'relative', marginBottom: '4rem' }}
             >
-              <video src={testVideo} autoPlay muted loop></video>
+              <div className="video-background">
+                <ReactPlayer
+                  url="https://vimeo.com/811740068"
+                  playing
+                  loop
+                  muted
+                  // light={true}
+                  // playIcon={<FontAwesomeIcon icon={faPlayCircle} size="5x" />}
+                  width="100%"
+                  height="100%"
+                  style={{ position: 'absolute', top: 0, left: 0 }}
+                />
+              </div>
               <div
                 style={{
                   position: 'absolute',
@@ -302,7 +346,6 @@ const App = () => {
                 <h2
                   style={{
                     marginBottom: '0.7rem',
-                    // marginLeft: '3rem',
                   }}
                 >
                   <div>
@@ -335,7 +378,19 @@ const App = () => {
               className="each-services-div"
               style={{ position: 'relative', marginBottom: '4rem' }}
             >
-              <video src={testVideo} autoPlay muted loop></video>
+              <div className="video-background">
+                <ReactPlayer
+                  url="https://vimeo.com/811740068"
+                  playing
+                  loop
+                  muted
+                  // light={true}
+                  // playIcon={<FontAwesomeIcon icon={faPlayCircle} size="5x" />}
+                  width="100%"
+                  height="100%"
+                  style={{ position: 'absolute', top: 0, left: 0 }}
+                />
+              </div>
               <div
                 style={{
                   position: 'absolute',
@@ -345,12 +400,10 @@ const App = () => {
                 <h2
                   style={{
                     marginBottom: '0.7rem',
-                    // marginLeft: '3rem',
                   }}
                 >
                   <div>
                     <span className="each-service-span-text1">Podcast</span>
-                    {/* <span className="each-service-span-text2"> .</span> */}
                   </div>
                 </h2>
               </div>
@@ -373,7 +426,19 @@ const App = () => {
               className="each-services-div"
               style={{ position: 'relative', marginBottom: '4rem' }}
             >
-              <video src={testVideo} autoPlay muted loop></video>
+              <div className="video-background">
+                <ReactPlayer
+                  url="https://vimeo.com/811740068"
+                  playing
+                  loop
+                  muted
+                  // light={true}
+                  // playIcon={<FontAwesomeIcon icon={faPlayCircle} size="5x" />}
+                  width="100%"
+                  height="100%"
+                  style={{ position: 'absolute', top: 0, left: 0 }}
+                />
+              </div>
               <div
                 style={{
                   position: 'absolute',
@@ -383,7 +448,6 @@ const App = () => {
                 <h2
                   style={{
                     marginBottom: '0.7rem',
-                    // marginLeft: '3rem',
                   }}
                 >
                   <div>

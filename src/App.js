@@ -78,7 +78,6 @@ const App = () => {
   const aboutus = useRef(null);
   const services = useRef(null);
   const team = useRef(null);
-  const portfolio = useRef(null);
   const footer = useRef(null);
 
   const scrollToSection = (elementRef) => {
@@ -90,7 +89,6 @@ const App = () => {
 
   return (
     <div className="App">
-      {/* <Navbar /> */}
       <div className="nav-shadow">
         <nav>
           <img className="logodark" src={logodark} alt="Deezey media logo" />
@@ -116,14 +114,6 @@ const App = () => {
                 onClick={() => scrollToSection(services)}
               >
                 Services
-              </motion.li>
-              <motion.li
-                initial={{ y: 30, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.35, type: 'spring' }}
-                onClick={() => scrollToSection(portfolio)}
-              >
-                Portfolio
               </motion.li>
               <motion.li
                 initial={{ y: 30, opacity: 0 }}
@@ -225,8 +215,6 @@ const App = () => {
                   playing
                   loop
                   muted
-                  // light={true}
-                  // playIcon={<FontAwesomeIcon icon={faPlayCircle} size="5x" />}
                   width="100%"
                   height="100%"
                   style={{ position: 'absolute', top: 0, left: 0 }}
@@ -278,8 +266,6 @@ const App = () => {
                   playing
                   loop
                   muted
-                  // light={true}
-                  // playIcon={<FontAwesomeIcon icon={faPlayCircle} size="5x" />}
                   width="100%"
                   height="100%"
                   style={{ position: 'absolute', top: 0, left: 0 }}
@@ -330,8 +316,6 @@ const App = () => {
                   playing
                   loop
                   muted
-                  // light={true}
-                  // playIcon={<FontAwesomeIcon icon={faPlayCircle} size="5x" />}
                   width="100%"
                   height="100vh"
                   style={{ position: 'absolute', top: 0, left: 0 }}
@@ -383,8 +367,6 @@ const App = () => {
                   playing
                   loop
                   muted
-                  // light={true}
-                  // playIcon={<FontAwesomeIcon icon={faPlayCircle} size="5x" />}
                   width="100%"
                   height="100%"
                   style={{ position: 'absolute', top: 0, left: 0 }}
@@ -432,8 +414,6 @@ const App = () => {
                   playing
                   loop
                   muted
-                  // light={true}
-                  // playIcon={<FontAwesomeIcon icon={faPlayCircle} size="5x" />}
                   width="100%"
                   height="100%"
                   style={{ position: 'absolute', top: 0, left: 0 }}
@@ -659,27 +639,6 @@ const App = () => {
             <h4>Chima Okpala</h4>
             <h5>Frontend Developer</h5>
           </motion.div>
-          {/* <motion.div
-            className="each-team"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.4, type: 'spring' }}
-            viewport={{ once: true }}
-          >
-            <div>
-              <img src={precious} alt="graphics designer profile" />
-            </div>
-            <h4 style={{ fontSize: '1.4rem' }}>Obi Precious</h4>
-            <h5
-              style={{
-                fontSize: '1.1rem',
-                marginBottom: '3rem',
-                fontWeight: '400',
-              }}
-            >
-              Graphics Designer
-            </h5>
-          </motion.div> */}
           <motion.div
             className="each-team"
             initial={{ opacity: 0 }}

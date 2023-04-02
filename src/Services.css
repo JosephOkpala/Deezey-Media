@@ -9,12 +9,11 @@
 }
 
 .each-services-div {
-  width: 90%;
   width: 100%;
   max-width: 2000px;
-  margin: 0 auto;
   position: relative;
-  margin-bottom: 4rem;
+  margin: 0 auto 4rem auto;
+  border: 1px solid cyan;
 }
 
 .video-background {

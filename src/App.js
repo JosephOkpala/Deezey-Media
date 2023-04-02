@@ -168,16 +168,10 @@ const App = () => {
         </div>
       </div>
       <section ref={services} className="services-section">
-        <div
-          className="services-section-div"
-          style={{ border: '1px solid red' }}
-        >
-          <div className="video-text" style={{ border: '2px solid green' }}>
-            <div className="each-services-div" style={{ position: 'relative' }}>
-              <div
-                className="video-background"
-                style={{ border: '2px solid cyan' }}
-              >
+        <div className="services-section-div">
+          <div className="video-text">
+            <div className="each-services-div">
+              <div className="video-background">
                 <ReactPlayer
                   url="https://vimeo.com/811740068"
                   playing
@@ -189,7 +183,6 @@ const App = () => {
                     position: 'absolute',
                     top: 0,
                     left: 0,
-                    border: '2px solid black',
                   }}
                 />
               </div>

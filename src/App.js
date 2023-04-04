@@ -20,7 +20,7 @@ import youverify from './img/youverify.png';
 import emmanuel from './img/emmanuel.png';
 import ronald from './img/ronald.png';
 import emordi from './img/emordi.png';
-// import precious from './img/precious.png';
+import precious from './img/precious.png';
 import drone from './img/drone-guy.png';
 import ebuka from './img/ebuka.png';
 import joseph from './img/joseph.png';
@@ -630,7 +630,7 @@ const App = () => {
             className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.7, type: 'spring' }}
+            transition={{ delay: 0.4, type: 'spring' }}
             viewport={{ once: true }}
           >
             <div className="color-overlay-container">
@@ -648,6 +648,19 @@ const App = () => {
             viewport={{ once: true }}
           >
             <div className="color-overlay-container">
+              <img src={precious} alt="precious profile" />
+            </div>
+            <h4>Precious Obi</h4>
+            <h5>Content and Project manager</h5>
+          </motion.div>
+          <motion.div
+            className="each-team"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.6, type: 'spring' }}
+            viewport={{ once: true }}
+          >
+            <div className="color-overlay-container">
               <img src={drone} alt="drone guy profile" />
             </div>
             <h4>Ovo Derhie</h4>
@@ -657,7 +670,7 @@ const App = () => {
             className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.6, type: 'spring' }}
+            transition={{ delay: 0.7, type: 'spring' }}
             viewport={{ once: true }}
           >
             <div className="color-overlay-container">

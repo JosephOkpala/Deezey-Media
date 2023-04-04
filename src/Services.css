@@ -8,6 +8,32 @@
   margin-bottom: 6rem;
 }
 
+video {
+  height: 65vh;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 7rem;
+}
+
+.vid h2 {
+  position: absolute;
+  bottom: -6rem;
+  color: black;
+  background-color: white;
+  padding: 0.5rem;
+  font-size: 3.8rem;
+  font-weight: 900;
+  margin-bottom: 0.7rem;
+}
+
+.services-section div p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+  line-height: 1.5;
+}
+
 .each-services-div {
   width: 100%;
   max-width: 2000px;

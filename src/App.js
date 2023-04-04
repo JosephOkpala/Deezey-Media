@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import ReactPlayer from 'react-player';
+// import ReactPlayer from 'react-player';
 import { motion } from 'framer-motion';
 import logodark from './img/Deezey-media-logo.png';
 import threeline from './img/3Line.png';
@@ -33,6 +33,8 @@ import linkedin from './img/linkedin.png';
 import tiktok from './img/tik-tok.png';
 import emmanuell from './img/emmanuel-landscape.png';
 import josephh from './img/joseph-landscape.png';
+import hero from './img/hero.mp4';
+import nipost from './img/Nipost_1.jpg';
 import './Home.css';
 import './About.css';
 import './Services.css';
@@ -159,7 +161,61 @@ const App = () => {
         </div>
       </div>
       <section ref={services} className="services-section">
-        <div className="services-section-div">
+        <div>
+          <div
+            className="vid"
+            style={{
+              height: '100%',
+              width: '100%',
+              position: 'relative',
+            }}
+          >
+            <video
+              autoPlay
+              loop
+              id="wistia_simple_video_197"
+              crossOrigin="anonymous"
+              poster={nipost}
+              aria-label="Video"
+              src={hero}
+              controlsList="nodownload"
+              playsInline=""
+              muted="muted"
+              preload="none"
+              x-webkit-airplay="allow"
+              style={{
+                background: 'transparent',
+                display: 'block',
+                height: '70vh',
+                maxHeight: 'none',
+                maxWidth: 'none',
+                position: 'static',
+                visibility: 'visible',
+                width: '100%',
+                objectFit: 'cover',
+                border: '1px solid cyan',
+              }}
+            ></video>
+            <h2>
+              <div>
+                <span className="each-service-span-text1">
+                  Creating engaging
+                </span>
+                <span className="each-service-span-text2"> content.</span>
+              </div>
+            </h2>
+          </div>
+          <p>
+            Brand content? Get started with our Video Production Agency service
+            and bring your brand stories to life
+          </p>
+          <div className="each-services-images">
+            <img src={emmanuell} alt="" />
+            <img src={emmanuell} alt="" />
+            <img src={emmanuell} alt="" className="hide-mobile" />
+          </div>
+        </div>
+        {/* <div className="services-section-div">
           <div className="video-text">
             <div className="each-services-div">
               <div className="video-background">
@@ -207,8 +263,8 @@ const App = () => {
             <img src={emmanuell} alt="" />
             <img src={emmanuell} alt="" className="hide-mobile" />
           </div>
-        </div>
-        <div className="services-section-div">
+        </div> */}
+        {/* <div className="services-section-div">
           <div className="video-text">
             <div className="each-services-div" style={{ position: 'relative' }}>
               <div className="video-background">
@@ -308,8 +364,8 @@ const App = () => {
             <img src={emmanuell} alt="" />
             <img src={emmanuell} alt="" className="hide-mobile" />
           </div>
-        </div>
-        <div className="services-section-div">
+        </div> */}
+        {/* <div className="services-section-div">
           <div className="video-text">
             <div className="each-services-div" style={{ position: 'relative' }}>
               <div className="video-background">
@@ -359,8 +415,8 @@ const App = () => {
             <img src={josephh} alt="" />
             <img src={josephh} alt="" className="hide-mobile" />
           </div>
-        </div>
-        <div className="services-section-div">
+        </div> */}
+        {/* <div className="services-section-div">
           <div className="video-text">
             <div className="each-services-div" style={{ position: 'relative' }}>
               <div className="video-background">
@@ -406,8 +462,8 @@ const App = () => {
             <img src={emmanuell} alt="" />
             <img src={emmanuell} alt="" className="hide-mobile" />
           </div>
-        </div>
-        <div className="services-section-div">
+        </div> */}
+        {/* <div className="services-section-div">
           <div className="video-text">
             <div className="each-services-div" style={{ position: 'relative' }}>
               <div className="video-background">
@@ -456,7 +512,7 @@ const App = () => {
             <img src={josephh} alt="" />
             <img src={josephh} alt="" className="hide-mobile" />
           </div>
-        </div>
+        </div> */}
       </section>
       <div className="clients-page">
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>

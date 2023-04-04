@@ -31,6 +31,10 @@
   text-align: center;
 }
 
+.each-team {
+  cursor: pointer;
+}
+
 .color-overlay-container img {
   width: 80%;
   position: relative;

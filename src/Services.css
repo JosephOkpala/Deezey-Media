@@ -32,13 +32,6 @@ video {
   line-height: 1.5;
 }
 
-.each-services-div {
-  width: 100%;
-  max-width: 2000px;
-  position: relative;
-  margin: 0 auto 4rem auto;
-}
-
 .each-services-images {
   position: relative;
   display: inline;

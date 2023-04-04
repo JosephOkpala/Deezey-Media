@@ -210,3 +210,21 @@
     font-weight: 400;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .vid {
+    margin-bottom: 6rem;
+  }
+
+  .vid h2 {
+    margin: 0 0 0.7rem 1rem;
+  }
+
+  .services-section div p {
+    margin-left: 1rem;
+  }
+
+  .each-services-images {
+    margin-top: 4rem;
+  }
+}

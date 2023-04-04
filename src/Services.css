@@ -12,7 +12,7 @@ video {
   height: 65vh;
   width: 100%;
   object-fit: cover;
-  margin-bottom: 17rem;
+  margin-bottom: 30rem;
 }
 
 .vid h2 {
@@ -40,6 +40,7 @@ video {
 }
 
 .each-services-images {
+  position: relative;
   display: inline;
 }
 

@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 // import ReactPlayer from 'react-player';
 import { motion } from 'framer-motion';
 import logodark from './img/Deezey-media-logo.png';
@@ -100,23 +100,36 @@ const App = () => {
     });
   };
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const handleLinkClick = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <div className="App">
       <div className="nav-shadow">
         <nav>
           <img className="logodark" src={logodark} alt="Deezey media logo" />
-          <div className="burger">
-            <div className="line-one"></div>
-            <div className="line-two"></div>
-            <div className="line-three"></div>
+          <div className="burger" onClick={handleMenuToggle}>
+            <div className={`line ${isMenuOpen ? 'open' : ''}`}></div>
+            <div className={`line ${isMenuOpen ? 'open' : ''}`}></div>
+            <div className={`line ${isMenuOpen ? 'open' : ''}`}></div>
           </div>
-          <div className="navlinks">
+          <div className={`navlinks ${isMenuOpen ? 'open' : ''}`}>
             <ul>
               <motion.li
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.1, type: 'spring' }}
-                onClick={() => scrollToSection(aboutus)}
+                onClick={() => {
+                  handleLinkClick();
+                  scrollToSection(aboutus);
+                }}
               >
                 About Us
               </motion.li>
@@ -124,7 +137,10 @@ const App = () => {
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.2, type: 'spring' }}
-                onClick={() => scrollToSection(services)}
+                onClick={() => {
+                  handleLinkClick();
+                  scrollToSection(services);
+                }}
               >
                 Services
               </motion.li>
@@ -132,7 +148,10 @@ const App = () => {
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.45, type: 'spring' }}
-                onClick={() => scrollToSection(team)}
+                onClick={() => {
+                  handleLinkClick();
+                  scrollToSection(team);
+                }}
               >
                 Team
               </motion.li>
@@ -140,7 +159,10 @@ const App = () => {
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.54, type: 'spring' }}
-                onClick={() => scrollToSection(footer)}
+                onClick={() => {
+                  handleLinkClick();
+                  scrollToSection(footer);
+                }}
               >
                 Contact Us
               </motion.li>

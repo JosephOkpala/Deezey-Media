@@ -65,6 +65,7 @@ li {
 }
 
 nav {
+  position: relative;
   width: 95%;
   max-width: 1600px;
   height: 13vh;

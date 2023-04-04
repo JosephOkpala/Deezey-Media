@@ -167,7 +167,7 @@ const App = () => {
         </div>
       </div>
       <section ref={services} className="services-section">
-        <div>
+        {/* <div>
           <div
             className="vid"
             style={{
@@ -226,7 +226,7 @@ const App = () => {
             <img src={emmanuell} alt="" />
             <img src={emmanuell} alt="" className="hide-mobile" />
           </div>
-        </div>
+        </div> */}
         {/* <div className="services-section-div">
           <div className="video-text">
             <div className="each-services-div">

@@ -95,35 +95,36 @@
   }
 }
 
-@media (max-width: 925px) {
-  /* .home-page {
-    height: 70vh;
-  } */
-}
-
 @media (min-width: 2000px) {
   /*      home page styles 2000px     */
-  /* .home-page {
-    height: 60vh;
-  }
-  .home-page h1 {
-    font-size: 5.2rem;
+  .home-page div img {
+    width: 7rem;
   }
 
-  .home-page h4 {
-    font-size: 1.2rem;
-  } */
+  .home-page div h1 {
+    font-size: 5.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .home-page div p {
+    font-size: 1.6rem;
+  }
 }
 
 @media (min-width: 3000px) {
   /*      home page styles 3000px     */
-  /* .home-page h1 {
-    font-size: 5.5rem;
+  .home-page div img {
+    width: 7.5rem;
   }
 
-  .home-page h4 {
-    font-size: 1.4rem;
-  } */
+  .home-page div h1 {
+    font-size: 6.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .home-page div p {
+    font-size: 1.9rem;
+  }
 }
 /* for paragraph */
 

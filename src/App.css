@@ -9,6 +9,13 @@
   color: white;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  ::selection {
+    background-color: red;
+    color: white;
+  }
+}
+
 @font-face {
   font-family: 'Gilroy-Heavy';
   src: local('Gilroy-Heavy'), url('./fonts/Gilroy-Heavy.woff') format('woff');

@@ -5,15 +5,15 @@ section {
   margin-bottom: 10rem;
 }
 
-/* .services-section {
+.services-section-div {
   margin-bottom: 10rem;
-} */
+}
 
 video {
-  height: 65vh;
+  height: 70vh;
   width: 100%;
   object-fit: cover;
-  margin-top: 3rem;
+  margin-top: 8rem;
   background: transparent;
   display: block;
   max-height: none;
@@ -32,13 +32,14 @@ video {
   position: relative;
 }
 
-.vid h2 {
+.header-paragraph h2 {
   color: black;
   background-color: white;
   padding: 0.5rem 1rem;
   font-size: 3.8rem;
   font-weight: 900;
   margin: 0 0 0.7rem 2rem;
+  line-height: 1.1;
 }
 
 .header-paragraph p {
@@ -52,7 +53,8 @@ video {
 .each-services-images {
   position: relative;
   display: inline-block;
-  margin-top: 20rem;
+  margin-top: 15rem;
+  cursor: pointer;
 }
 
 .each-services-images img {

@@ -32,8 +32,13 @@ import twitter from './img/twitter.png';
 import linkedin from './img/linkedin.png';
 import tiktok from './img/tik-tok.png';
 import emmanuell from './img/emmanuel-landscape.png';
+import josephh from './img/joseph-landscape.png';
 import hero from './img/hero.mp4';
 import nipost from './img/Nipost_1.jpg';
+import socialMedia from './img/social-media.png';
+import corporateVideography from './img/corporate-videography.png';
+import manOfGod from './img/man-of-God.png';
+import directing from './img/Directing.png';
 import './Home.css';
 import './About.css';
 import './Services.css';
@@ -166,7 +171,7 @@ const App = () => {
         </div>
       </div>
       <section ref={services} className="services-section">
-        <div>
+        <div className="services-section-div">
           <div className="vid">
             <video
               autoPlay
@@ -185,164 +190,93 @@ const App = () => {
               <h2>
                 <div>
                   <span className="each-service-span-text1">
-                    Creating engaging
+                    Creating Engaging
                   </span>
-                  <span className="each-service-span-text2"> content.</span>
+                  <span className="each-service-span-text2"> Content.</span>
                 </div>
               </h2>
               <p>
                 Bland content? Get started with our Video Production Agency
-                service and bring your brand stories to life
+                service and bring your brand stories to life.
               </p>
             </div>
           </div>
           <div className="each-services-images">
-            <img src={emmanuell} alt="" />
-            <img src={emmanuell} alt="" />
-            <img src={emmanuell} alt="" className="hide-mobile" />
+            <img src={socialMedia} alt="" />
+            <img src={corporateVideography} alt="" />
+            <img src={manOfGod} alt="" className="hide-mobile" />
           </div>
         </div>
-        {/* <div className="services-section-div">
-          <div className="video-text">
-            <div className="each-services-div">
-              <div className="video-background">
-                <ReactPlayer
-                  url="https://vimeo.com/814035145"
-                  playing
-                  loop
-                  muted
-                  controls={true}
-                  width="100%"
-                  height="100%"
-                  style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                  }}
-                />
-              </div>
-              <div
-                style={{
-                  position: 'absolute',
-                  bottom: '-2.4rem',
-                }}
-              >
-                <h2>
-                  <div>
-                    <span className="each-service-span-text1">We create</span>
-                    <span className="each-service-span-text2">
-                      {' '}
-                      engaging contents.
-                    </span>
-                  </div>
-                </h2>
-              </div>
-            </div>
-            <div className="video-text-divp">
-              <p>
-                No matter the scale and content type, we are the right partners
-                to carry out your creative needs.
-              </p>
-            </div>
-          </div>
-          <div className="each-services-images">
-            <img src={emmanuell} alt="" />
-            <img src={emmanuell} alt="" />
-            <img src={emmanuell} alt="" className="hide-mobile" />
-          </div>
-        </div> */}
-        {/* <div className="services-section-div">
-          <div className="video-text">
-            <div className="each-services-div" style={{ position: 'relative' }}>
-              <div className="video-background">
-                <ReactPlayer
-                  url="https://vimeo.com/814035145"
-                  playing
-                  loop
-                  muted
-                  width="100%"
-                  height="100%"
-                  style={{ position: 'absolute', top: 0, left: 0 }}
-                />
-              </div>
-              <div
-                style={{
-                  position: 'absolute',
-                  bottom: '-2.4rem',
-                }}
-              >
-                <h2
-                  style={{
-                    marginBottom: '0.7rem',
-                  }}
-                >
-                  <div>
-                    <span className="each-service-span-text1">
-                      Delivering the best
-                    </span>
-                    <span className="each-service-span-text2">
-                      {' '}
-                      value uniquely.
-                    </span>
-                  </div>
-                </h2>
-              </div>
-            </div>
-            <div className="video-text-divp">
-              <p>
-                We Combine the right media buying plan as well as unique content
-                marketing techniques to capture our client’s audiences in the
-                campaigns we launch.
-              </p>
-            </div>
-          </div>
-          <div className="each-services-images">
-            <img src={josephh} alt="" />
-            <img src={josephh} alt="" />
-            <img src={josephh} alt="" className="hide-mobile" />
-          </div>
-        </div>
+
         <div className="services-section-div">
-          <div className="video-text">
-            <div className="each-services-div" style={{ position: 'relative' }}>
-              <div className="video-background">
-                <ReactPlayer
-                  url="https://vimeo.com/814035145"
-                  playing
-                  loop
-                  muted
-                  width="100%"
-                  height="100%"
-                  style={{ position: 'absolute', top: 0, left: 0 }}
-                />
-              </div>
-              <div
-                style={{
-                  position: 'absolute',
-                  bottom: '-2.4rem',
-                }}
-              >
-                <h2
-                  style={{
-                    marginBottom: '0.7rem',
-                  }}
-                >
-                  <div>
-                    <span className="each-service-span-text1">
-                      Long lasting
-                    </span>
-                    <span className="each-service-span-text2">
-                      {' '}
-                      visual assets.
-                    </span>
-                  </div>
-                </h2>
-              </div>
-            </div>
-            <div className="video-text-divp">
+          <div className="vid">
+            <video
+              autoPlay
+              loop
+              crossOrigin="anonymous"
+              poster={nipost}
+              aria-label="Video"
+              src={hero}
+              controlsList="nodownload"
+              playsInline=""
+              muted="muted"
+              preload="none"
+              x-webkit-airplay="allow"
+            ></video>
+            <div className="header-paragraph">
+              <h2>
+                <div>
+                  <span className="each-service-span-text1">
+                    Delivering The Best
+                  </span>
+                  <span className="each-service-span-text2">
+                    {' '}
+                    Value Uniquely.
+                  </span>
+                </div>
+              </h2>
               <p>
-                Our branding service helps your business establish a clear and
-                consistent identity that sets your brand apart from competitors.
+                Creating commercials that are memorable and effective, we would
+                leave your viewers hungry for more.
+              </p>
+            </div>
+          </div>
+          <div className="each-services-images">
+            <img src={josephh} alt="" />
+            <img src={josephh} alt="" />
+            <img src={directing} alt="" className="hide-mobile" />
+          </div>
+        </div>
+
+        <div className="services-section-div">
+          <div className="vid">
+            <video
+              autoPlay
+              loop
+              crossOrigin="anonymous"
+              poster={nipost}
+              aria-label="Video"
+              src={hero}
+              controlsList="nodownload"
+              playsInline=""
+              muted="muted"
+              preload="none"
+              x-webkit-airplay="allow"
+            ></video>
+            <div className="header-paragraph">
+              <h2>
+                <div>
+                  <span className="each-service-span-text1">
+                    Unforgettable Memories And
+                  </span>
+                  <span className="each-service-span-text2">
+                    Experience That Lives On.
+                  </span>
+                </div>
+              </h2>
+              <p>
+                Turning gatherings into unforgettable experiences that leave
+                your guests wowed.
               </p>
             </div>
           </div>
@@ -351,49 +285,38 @@ const App = () => {
             <img src={emmanuell} alt="" />
             <img src={emmanuell} alt="" className="hide-mobile" />
           </div>
-        </div> */}
-        {/* <div className="services-section-div">
-          <div className="video-text">
-            <div className="each-services-div" style={{ position: 'relative' }}>
-              <div className="video-background">
-                <ReactPlayer
-                  url="https://vimeo.com/814035145"
-                  playing
-                  loop
-                  muted
-                  width="100%"
-                  height="100vh"
-                  style={{ position: 'absolute', top: 0, left: 0 }}
-                />
-              </div>
-              <div
-                style={{
-                  position: 'absolute',
-                  bottom: '-2.4rem',
-                }}
-              >
-                <h2
-                  style={{
-                    marginBottom: '0.7rem',
-                  }}
-                >
-                  <div>
-                    <span className="each-service-span-text1">
-                      Creating good
-                    </span>
-                    <span className="each-service-span-text2">
-                      {' '}
-                      impressions.
-                    </span>
-                  </div>
-                </h2>
-              </div>
-            </div>
-            <div className="video-text-divp">
+        </div>
+
+        <div className="services-section-div">
+          <div className="vid">
+            <video
+              autoPlay
+              loop
+              crossOrigin="anonymous"
+              poster={nipost}
+              aria-label="Video"
+              src={hero}
+              controlsList="nodownload"
+              playsInline=""
+              muted="muted"
+              preload="none"
+              x-webkit-airplay="allow"
+            ></video>
+            <div className="header-paragraph">
+              <h2>
+                <div>
+                  <span className="each-service-span-text1">
+                    Extra-Spice That Brings
+                  </span>
+                  <span className="each-service-span-text2">
+                    Your Content To Life.
+                  </span>
+                </div>
+              </h2>
               <p>
-                Our web design services are tailored to create visually stunning
-                and user-friendly websites that effectively communicate our
-                client’s brand message.
+                Add some wow factor to your videos. With stunning animations and
+                visuals, we'll turn your content into a visual feast that
+                viewers won't be able to look away from.
               </p>
             </div>
           </div>
@@ -402,46 +325,39 @@ const App = () => {
             <img src={josephh} alt="" />
             <img src={josephh} alt="" className="hide-mobile" />
           </div>
-        </div> */}
-        {/* <div className="services-section-div">
-          <div className="video-text">
-            <div className="each-services-div" style={{ position: 'relative' }}>
-              <div className="video-background">
-                <ReactPlayer
-                  url="https://vimeo.com/814035145"
-                  playing
-                  loop
-                  muted
-                  width="100%"
-                  height="100%"
-                  style={{ position: 'absolute', top: 0, left: 0 }}
-                />
-              </div>
-              <div
-                style={{
-                  position: 'absolute',
-                  bottom: '-2.4rem',
-                }}
-              >
-                <h2
-                  style={{
-                    marginBottom: '0.7rem',
-                  }}
-                >
-                  <div>
-                    <span className="each-service-span-text1">Podcast</span>
-                  </div>
-                </h2>
-              </div>
-            </div>
-            <div>
-              <div className="video-text-divp">
-                <p>
-                  Our in-house podcast production is bent on producing daring
-                  and captivating audio and video content that captures our
-                  client's audience and share their journey.
-                </p>
-              </div>
+        </div>
+
+        <div className="services-section-div">
+          <div className="vid">
+            <video
+              autoPlay
+              loop
+              crossOrigin="anonymous"
+              poster={nipost}
+              aria-label="Video"
+              src={hero}
+              controlsList="nodownload"
+              playsInline=""
+              muted="muted"
+              preload="none"
+              x-webkit-airplay="allow"
+            ></video>
+            <div className="header-paragraph">
+              <h2>
+                <div>
+                  <span className="each-service-span-text1">
+                    Helping You Create
+                  </span>
+                  <span className="each-service-span-text2">
+                    Your Unique Voice.
+                  </span>
+                </div>
+              </h2>
+              <p>
+                Our Podcast Production service is a game-changer. We handle
+                everything from recording to editing to distribution, so you can
+                focus on creating the best content possible.
+              </p>
             </div>
           </div>
           <div className="each-services-images">
@@ -449,57 +365,7 @@ const App = () => {
             <img src={emmanuell} alt="" />
             <img src={emmanuell} alt="" className="hide-mobile" />
           </div>
-        </div> */}
-        {/* <div className="services-section-div">
-          <div className="video-text">
-            <div className="each-services-div" style={{ position: 'relative' }}>
-              <div className="video-background">
-                <ReactPlayer
-                  url="https://vimeo.com/814035145"
-                  playing
-                  loop
-                  muted
-                  width="100%"
-                  height="100%"
-                  style={{ position: 'absolute', top: 0, left: 0 }}
-                />
-              </div>
-              <div
-                style={{
-                  position: 'absolute',
-                  bottom: '-2.4rem',
-                }}
-              >
-                <h2
-                  style={{
-                    marginBottom: '0.7rem',
-                  }}
-                >
-                  <div>
-                    <span className="each-service-span-text1">
-                      Achieving your
-                    </span>
-                    <span className="each-service-span-text2">
-                      {' '}
-                      marketing goals.
-                    </span>
-                  </div>
-                </h2>
-              </div>
-            </div>
-            <div className="video-text-divp">
-              <p>
-                As a startup or a 50-year-old legacy company, we are open to
-                strategizing on ways to build and optimize your brand.
-              </p>
-            </div>
-          </div>
-          <div className="each-services-images">
-            <img src={josephh} alt="" />
-            <img src={josephh} alt="" />
-            <img src={josephh} alt="" className="hide-mobile" />
-          </div>
-        </div> */}
+        </div>
       </section>
       <div className="clients-page">
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>

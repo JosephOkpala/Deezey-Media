@@ -25,6 +25,10 @@
     font-size: 2.9rem;
   }
 
+  video {
+    height: 40vh;
+  }
+
   .each-services-div div h2 {
     font-size: 2.8rem;
   }
@@ -211,7 +215,7 @@
   }
 }
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   .vid {
     margin-bottom: 6rem;
   }
@@ -227,4 +231,4 @@
   .each-services-images {
     margin-top: 4rem;
   }
-}
+} */

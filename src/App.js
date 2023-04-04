@@ -32,7 +32,6 @@ import twitter from './img/twitter.png';
 import linkedin from './img/linkedin.png';
 import tiktok from './img/tik-tok.png';
 import emmanuell from './img/emmanuel-landscape.png';
-import josephh from './img/joseph-landscape.png';
 import hero from './img/hero.mp4';
 import nipost from './img/Nipost_1.jpg';
 import './Home.css';
@@ -180,25 +179,14 @@ const App = () => {
               autoPlay
               loop
               // crossOrigin="anonymous"
-              poster={nipost}
-              aria-label="Video"
+              // poster={nipost}
+              // aria-label="Video"
               src={hero}
-              controlsList="nodownload"
-              playsInline=""
+              // controlsList="nodownload"
+              // playsInline=""
               muted="muted"
-              preload="none"
+              // preload="none"
               // x-webkit-airplay="allow"
-              style={{
-                background: 'transparent',
-                display: 'block',
-                height: '70vh',
-                maxHeight: 'none',
-                maxWidth: 'none',
-                position: 'static',
-                visibility: 'visible',
-                width: '100%',
-                objectFit: 'cover',
-              }}
             ></video>
             <div
               style={{

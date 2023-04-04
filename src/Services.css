@@ -13,6 +13,12 @@ video {
   width: 100%;
   object-fit: cover;
   margin-bottom: 17rem;
+  /* background: transparent; */
+  /* display: block;
+  max-height: none;
+  max-width: none;
+  visibility: visible;
+  position: static; */
 }
 
 .vid h2 {

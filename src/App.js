@@ -179,8 +179,7 @@ const App = () => {
             <video
               autoPlay
               loop
-              id="wistia_simple_video_197"
-              crossOrigin="anonymous"
+              // crossOrigin="anonymous"
               poster={nipost}
               aria-label="Video"
               src={hero}
@@ -188,7 +187,7 @@ const App = () => {
               playsInline=""
               muted="muted"
               preload="none"
-              x-webkit-airplay="allow"
+              // x-webkit-airplay="allow"
               style={{
                 background: 'transparent',
                 display: 'block',

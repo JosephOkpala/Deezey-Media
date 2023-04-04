@@ -21,16 +21,6 @@
     display: block;
   }
 
-  .home-page h1 {
-    font-size: 2.7rem;
-    line-height: 5.1rem;
-    /* max-width: 1100px; */
-  }
-
-  .home-page div {
-    margin-top: 7rem;
-  }
-
   .about-page div h2 {
     font-size: 2.9rem;
   }
@@ -103,23 +93,8 @@
 }
 
 @media (max-width: 390px) {
-  .home-page div {
-    margin-top: 4.5rem;
-  }
   .home-page h1 {
     line-height: 4.4rem;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 920px) {
-  .home-page h1 {
-    font-size: 3.4rem;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 920px) {
-  .home-page div {
-    margin-top: 5rem;
   }
 }
 
@@ -129,18 +104,6 @@
   }
   .footer-cont {
     gap: 5rem;
-  }
-}
-
-@media (max-width: 925px) {
-  .home-page {
-    height: 70vh;
-  }
-}
-
-@media (min-width: 926px) and (max-width: 1190px) {
-  .home-page div {
-    margin-top: 6rem;
   }
 }
 
@@ -181,18 +144,6 @@
 }
 
 @media (min-width: 2000px) {
-  /*      home page styles 2000px     */
-  .home-page {
-    height: 60vh;
-  }
-  .home-page h1 {
-    font-size: 5.2rem;
-  }
-
-  .home-page h4 {
-    font-size: 1.2rem;
-  }
-
   /*      about page styles 2000px     */
 
   .about-page div h2 {
@@ -224,15 +175,6 @@
 }
 
 @media (min-width: 3000px) {
-  /*      home page styles 3000px     */
-  .home-page h1 {
-    font-size: 5.5rem;
-  }
-
-  .home-page h4 {
-    font-size: 1.4rem;
-  }
-
   /*      about page styles 3000px     */
 
   .about-page div h2 {

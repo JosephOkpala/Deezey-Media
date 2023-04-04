@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap'); */
-
 * {
   padding: 0rem;
   margin: 0rem;
@@ -10,15 +8,6 @@
   background-color: red;
   color: white;
 }
-
-/* body {
-  font-weight: 900;
-} */
-
-/* body {
-  font-family: 'Lato', sans-serif;
-  font-family: 'Helvetica';
-} */
 
 @font-face {
   font-family: 'Gilroy-Heavy';
@@ -48,9 +37,12 @@ body {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
   font-family: 'Gilroy-Heavy';
+}
+
+h4 {
+  font-family: 'Gilroy-Regular';
 }
 
 h5 {

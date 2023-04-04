@@ -193,7 +193,6 @@ const App = () => {
                 visibility: 'visible',
                 width: '100%',
                 objectFit: 'cover',
-                border: '1px solid cyan',
               }}
             ></video>
             <h2>

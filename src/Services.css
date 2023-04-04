@@ -20,17 +20,17 @@ video {
   bottom: -6rem;
   color: black;
   background-color: white;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   font-size: 3.8rem;
   font-weight: 900;
-  margin-bottom: 0.7rem;
+  margin: 0 0 0.7rem 2rem;
 }
 
 .services-section div p {
   font-size: 1.2rem;
   max-width: 600px;
   margin-bottom: 5rem;
-  margin-left: 2rem;
+  margin-left: 3rem;
   line-height: 1.5;
 }
 
@@ -41,47 +41,12 @@ video {
   margin: 0 auto 4rem auto;
 }
 
-.video-background {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  /* z-index: 10; */
-}
-
-.each-services-div div h2 {
-  font-size: 3.8rem;
-  font-weight: 900;
-  margin-bottom: 0.7rem;
-}
-
-.each-services-div div h2 div {
-  background-color: white;
-  /* border-top-right-radius: 100px; */
-  padding: 0 3rem 0 2rem;
-}
-
 .each-services-images {
   display: inline;
 }
 
 .each-services-images img {
   width: 33.3%;
-}
-
-.video-text-divp {
-  max-width: 2000px;
-  margin: 0 auto;
-}
-
-.video-text-divp p {
-  font-size: 1.2rem;
-  max-width: 600px;
-  margin-bottom: 5rem;
-  margin-left: 2rem;
-  line-height: 1.5;
 }
 
 .each-service-span-text1 {

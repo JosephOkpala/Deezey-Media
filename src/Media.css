@@ -39,10 +39,6 @@
     font-size: 2.8rem;
   }
 
-  .video-background {
-    top: 7rem;
-  }
-
   .video-text h2 {
     padding-right: 3rem;
   }
@@ -71,7 +67,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 860px) {
-  .each-services-div div h2 {
+  .vid h2 {
     font-size: 3.5rem;
   }
 
@@ -81,26 +77,26 @@
 }
 
 @media (max-width: 625px) {
-  .each-services-div div h2 {
+  .vid h2 {
     font-size: 2.2rem;
-  }
-
-  .video-background {
-    top: 11rem;
   }
 }
 
 @media (max-width: 433px) {
-  .each-services-div div h2 {
+  .vid h2 {
     font-size: 2rem;
-  }
-
-  .video-background {
-    top: 11rem;
   }
 }
 
 @media (max-width: 600px) {
+  .vid h2 {
+    margin: 0 0 0.7rem 1rem;
+  }
+
+  .services-section div p {
+    margin-left: 2rem;
+  }
+
   .about-page-cover {
     margin-bottom: 0rem;
   }

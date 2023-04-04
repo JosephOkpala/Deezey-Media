@@ -4,21 +4,23 @@
   margin-bottom: 10rem;
 }
 
-.services-section-div {
-  margin-bottom: 6rem;
-}
-
 video {
   height: 65vh;
   width: 100%;
   object-fit: cover;
-  margin-bottom: 17rem;
-  /* background: transparent; */
-  /* display: block;
+  margin-top: 8rem;
+  margin-bottom: 15rem;
+  background: transparent;
+  display: block;
   max-height: none;
   max-width: none;
   visibility: visible;
-  position: static; */
+  position: static;
+}
+
+.vid .header-paragraph {
+  position: absolute;
+  bottom: -14rem;
 }
 
 .vid h2 {
@@ -30,7 +32,7 @@ video {
   margin: 0 0 0.7rem 2rem;
 }
 
-.services-section div p {
+.header-paragraph p {
   font-size: 1.2rem;
   max-width: 600px;
   margin-bottom: 5rem;

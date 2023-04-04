@@ -179,7 +179,7 @@ const App = () => {
               autoPlay
               loop
               // crossOrigin="anonymous"
-              // poster={nipost}
+              poster={nipost}
               // aria-label="Video"
               src={hero}
               // controlsList="nodownload"
@@ -188,12 +188,7 @@ const App = () => {
               // preload="none"
               // x-webkit-airplay="allow"
             ></video>
-            <div
-              style={{
-                position: 'absolute',
-                bottom: '-16rem',
-              }}
-            >
+            <div className="header-paragraph">
               <h2>
                 <div>
                   <span className="each-service-span-text1">

@@ -12,12 +12,10 @@ video {
   height: 65vh;
   width: 100%;
   object-fit: cover;
-  margin-bottom: 7rem;
+  margin-bottom: 17rem;
 }
 
 .vid h2 {
-  position: absolute;
-  bottom: -6rem;
   color: black;
   background-color: white;
   padding: 0.5rem 1rem;

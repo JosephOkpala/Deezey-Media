@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap'); */
 
 * {
   padding: 0rem;
@@ -11,9 +11,58 @@
   color: white;
 }
 
-body {
+/* body {
+  font-weight: 900;
+} */
+
+/* body {
   font-family: 'Lato', sans-serif;
   font-family: 'Helvetica';
+} */
+
+@font-face {
+  font-family: 'Gilroy-Heavy';
+  src: local('Gilroy-Heavy'), url('./fonts/Gilroy-Heavy.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: local('Gilroy-Regular'),
+    url('./fonts/Gilroy-Regular.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: local('Gilroy-Medium'), url('./fonts/Gilroy-Medium.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Gilroy-Heavy', 'Helvetica';
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Gilroy-Heavy';
+}
+
+h5 {
+  font-family: 'Gilroy-Medium';
+}
+
+p {
+  font-family: 'Gilroy-Regular';
+}
+
+li {
+  font-family: 'Gilroy-Regular';
 }
 
 nav {

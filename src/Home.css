@@ -17,6 +17,7 @@
 
 .home-page h4 {
   color: red;
+  font-family: 'Gilroy-Medium';
 }
 
 .home-page h4::selection {

@@ -195,19 +195,26 @@ const App = () => {
                 objectFit: 'cover',
               }}
             ></video>
-            <h2>
-              <div>
-                <span className="each-service-span-text1">
-                  Creating engaging
-                </span>
-                <span className="each-service-span-text2"> content.</span>
-              </div>
-            </h2>
+            <div
+              style={{
+                position: 'absolute',
+                bottom: '-16rem',
+              }}
+            >
+              <h2>
+                <div>
+                  <span className="each-service-span-text1">
+                    Creating engaging
+                  </span>
+                  <span className="each-service-span-text2"> content.</span>
+                </div>
+              </h2>
+              <p>
+                Brand content? Get started with our Video Production Agency
+                service and bring your brand stories to life
+              </p>
+            </div>
           </div>
-          <p>
-            Brand content? Get started with our Video Production Agency service
-            and bring your brand stories to life
-          </p>
           <div className="each-services-images">
             <img src={emmanuell} alt="" />
             <img src={emmanuell} alt="" />

@@ -24,6 +24,7 @@ import precious from './img/precious.png';
 import drone from './img/drone-guy.png';
 import ebuka from './img/ebuka.png';
 import joseph from './img/joseph.png';
+import timothy from './img/timothy.png';
 import deezey from './img/Deezey-Media-Logo-footer.png';
 import facebook from './img/facebook.png';
 import instagram from './img/instagram.png';
@@ -678,6 +679,19 @@ const App = () => {
             </div>
             <h4>Onyewuchi Ebuka</h4>
             <h5>Photographer</h5>
+          </motion.div>
+          <motion.div
+            className="each-team"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.8, type: 'spring' }}
+            viewport={{ once: true }}
+          >
+            <div className="color-overlay-container">
+              <img src={timothy} alt="graphics designer profile" />
+            </div>
+            <h4>Joseph Timothy</h4>
+            <h5>Graphics Designer</h5>
           </motion.div>
         </div>
       </div>

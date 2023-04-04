@@ -1,26 +1,35 @@
 /*      services page style START      */
 
-.services-section {
+section {
+  position: relative;
   margin-bottom: 10rem;
 }
+
+/* .services-section {
+  margin-bottom: 10rem;
+} */
 
 video {
   height: 65vh;
   width: 100%;
   object-fit: cover;
-  margin-top: 8rem;
-  margin-bottom: 15rem;
+  margin-top: 3rem;
   background: transparent;
   display: block;
   max-height: none;
   max-width: none;
   visibility: visible;
-  position: static;
 }
 
-.vid .header-paragraph {
+.header-paragraph {
   position: absolute;
   bottom: -14rem;
+}
+
+.vid {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 .vid h2 {
@@ -42,7 +51,8 @@ video {
 
 .each-services-images {
   position: relative;
-  display: inline;
+  display: inline-block;
+  margin-top: 20rem;
 }
 
 .each-services-images img {

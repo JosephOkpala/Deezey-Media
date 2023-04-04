@@ -167,26 +167,19 @@ const App = () => {
       </div>
       <section ref={services} className="services-section">
         <div>
-          <div
-            className="vid"
-            style={{
-              height: '100%',
-              width: '100%',
-              position: 'relative',
-            }}
-          >
+          <div className="vid">
             <video
               autoPlay
               loop
-              // crossOrigin="anonymous"
+              crossOrigin="anonymous"
               poster={nipost}
-              // aria-label="Video"
+              aria-label="Video"
               src={hero}
-              // controlsList="nodownload"
-              // playsInline=""
+              controlsList="nodownload"
+              playsInline=""
               muted="muted"
-              // preload="none"
-              // x-webkit-airplay="allow"
+              preload="none"
+              x-webkit-airplay="allow"
             ></video>
             <div className="header-paragraph">
               <h2>
@@ -198,7 +191,7 @@ const App = () => {
                 </div>
               </h2>
               <p>
-                Brand content? Get started with our Video Production Agency
+                Bland content? Get started with our Video Production Agency
                 service and bring your brand stories to life
               </p>
             </div>

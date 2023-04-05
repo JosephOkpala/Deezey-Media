@@ -250,7 +250,7 @@ const App = () => {
               autoPlay
               loop
               crossOrigin="anonymous"
-              poster={nipost}
+              // poster={nipost}
               aria-label="Video"
               src={hero}
               controlsList="nodownload"
@@ -258,6 +258,7 @@ const App = () => {
               muted="muted"
               preload="none"
               x-webkit-airplay="allow"
+              style={{ backgroundColor: 'black' }}
             ></video>
             <div className="header-paragraph">
               <h2>

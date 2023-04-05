@@ -46,8 +46,7 @@ video {
 .header-paragraph p {
   font-size: 1.2rem;
   max-width: 600px;
-  margin-bottom: 5rem;
-  margin-left: 3rem;
+  margin: 0 0 5rem 3rem;
   line-height: 1.5;
 }
 
@@ -69,6 +68,44 @@ video {
 
 .each-service-span-text2 {
   display: block;
+}
+
+@media (max-width: 940px) {
+  .header-paragraph h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-paragraph h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 625px) {
+  .header-paragraph {
+    position: absolute;
+    bottom: -13rem;
+  }
+
+  .header-paragraph h2 {
+    font-size: 2.5rem;
+    margin: 0 0 0.7rem 1rem;
+  }
+
+  .header-paragraph p {
+    margin: 0 0 5rem 2rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .header-paragraph h2 {
+    font-size: 1.8rem;
+  }
+
+  .header-paragraph p {
+    font-size: 1rem;
+  }
 }
 
 /*      services page style END      */

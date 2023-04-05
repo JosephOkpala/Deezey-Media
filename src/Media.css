@@ -60,12 +60,8 @@
     background-color: #000000;
   }
 
-  .about-page div h2 {
-    font-size: 2.9rem;
-  }
-
   video {
-    height: 40vh;
+    height: 50vh;
   }
 
   .our-team-text h3 {
@@ -92,38 +88,8 @@
 }
 
 @media (min-width: 768px) and (max-width: 860px) {
-  .header-paragraph h2 {
-    font-size: 3.5rem;
-  }
-
   .our-team-text h3 {
     font-size: 3.5rem;
-  }
-}
-
-@media (max-width: 625px) {
-  .header-paragraph h2 {
-    font-size: 2.2rem;
-  }
-}
-
-@media (max-width: 433px) {
-  .header-paragraph h2 {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width: 600px) {
-  .header-paragraph h2 {
-    margin: 0 0 0.7rem 1rem;
-  }
-
-  .services-section div p {
-    margin-left: 2rem;
-  }
-
-  .about-page-cover {
-    margin-bottom: 6rem;
   }
 }
 
@@ -245,21 +211,3 @@
     font-weight: 400;
   }
 }
-
-/* @media only screen and (max-width: 767px) {
-  .vid {
-    margin-bottom: 6rem;
-  }
-
-  .vid h2 {
-    margin: 0 0 0.7rem 1rem;
-  }
-
-  .services-section div p {
-    margin-left: 1rem;
-  }
-
-  .each-services-images {
-    margin-top: 4rem;
-  }
-} */

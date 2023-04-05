@@ -47,10 +47,10 @@
 .color-overlay-container::after {
   content: '';
   position: absolute;
-  /* top: -0.5px; */
+  top: -0.5px;
   left: 10%;
   width: 80%;
-  height: 99.3%;
+  height: 98.9%;
   background-color: rgba(248, 51, 51, 0.8);
   mix-blend-mode: multiply;
   transition: 0.2s ease-in-out;

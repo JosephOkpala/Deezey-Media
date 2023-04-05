@@ -1,6 +1,10 @@
 /*             Media styles here            */
 
 @media (max-width: 767px) {
+  nav {
+    width: 100%;
+  }
+
   .navlinks {
     position: absolute;
     display: flex;
@@ -16,6 +20,7 @@
     transition: 0.2s ease-in-out;
     -webkit-transition: 0.2s ease-in-out;
     -moz-transition: 0.2s ease-in-out;
+    border: 1px solid red;
   }
 
   .navlinks ul li {

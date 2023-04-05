@@ -87,7 +87,7 @@ const Home = () => {
   );
 };
 
-const App = () => {
+const App = (props) => {
   const aboutus = useRef(null);
   const services = useRef(null);
   const team = useRef(null);
@@ -191,11 +191,10 @@ const App = () => {
               Why we are awesome!
             </motion.h2>
             <p>
-              Deezey media is primarily a content creation company Creative
-              Agency and Production Company combined Whatever your brief,
-              whether it’s a TV commercial, corporate video, brand film or
-              animation, at the core of every great piece of advertising is a
-              good idea and a well-crafted script.
+              Deezey Media is primarily a Creative Agency and Production
+              Company. Whatever your brief, whether it’s a TV commercial,
+              Corporate video, Brand film, or Animation, we are your one-stop
+              shop.
             </p>
           </div>
         </div>
@@ -254,10 +253,9 @@ const App = () => {
               aria-label="Video"
               src={hero}
               controlsList="nodownload"
-              playsInline=""
-              muted="muted"
-              preload="none"
-              x-webkit-airplay="allow"
+              // playsInline
+              // preload="none"
+              // x-webkit-airplay="allow"
               style={{ backgroundColor: 'black' }}
             ></video>
             <div className="header-paragraph">

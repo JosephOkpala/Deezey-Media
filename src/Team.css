@@ -4,6 +4,8 @@
   margin-bottom: 6rem;
   position: relative;
   background-color: white;
+  max-width: 2000px;
+  margin: 0 auto 6rem auto;
 }
 
 .our-team-text {

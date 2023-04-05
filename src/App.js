@@ -34,7 +34,6 @@ import tiktok from './img/tik-tok.png';
 import emmanuell from './img/emmanuel-landscape.png';
 import josephh from './img/joseph-landscape.png';
 import hero from './img/hero.mp4';
-import nipost from './img/Nipost_1.jpg';
 import socialMedia from './img/social-media.png';
 import corporateVideography from './img/corporate-videography.png';
 import manOfGod from './img/man-of-God.png';
@@ -206,11 +205,10 @@ const App = (props) => {
               autoPlay
               loop
               crossOrigin="anonymous"
-              // poster={nipost}
               aria-label="Video"
               src={hero}
               controlsList="nodownload"
-              playsInline=""
+              playsInline
               muted="muted"
               preload="none"
               style={{ backgroundColor: 'black' }}
@@ -255,6 +253,7 @@ const App = (props) => {
               src={hero}
               controlsList="nodownload"
               playsInline
+              muted="muted"
               preload="none"
               style={{ backgroundColor: 'black' }}
             ></video>

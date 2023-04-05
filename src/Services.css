@@ -6,7 +6,8 @@ section {
 }
 
 .services-section-div {
-  margin-bottom: 10rem;
+  margin: 0 auto 10rem auto;
+  max-width: 2000px;
 }
 
 video {
@@ -23,7 +24,7 @@ video {
 
 .header-paragraph {
   position: absolute;
-  bottom: -16.5rem;
+  bottom: -15rem;
 }
 
 .vid {
@@ -55,6 +56,7 @@ video {
   display: inline-block;
   margin-top: 15rem;
   cursor: pointer;
+  width: 100%;
 }
 
 .each-services-images img {

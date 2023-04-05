@@ -1,5 +1,5 @@
-import { useRef, useState } from 'react';
-// import ReactPlayer from 'react-player';
+import { useEffect, useRef, useState } from 'react';
+import ReactPlayer from 'react-player';
 import { motion } from 'framer-motion';
 import logodark from './img/Deezey-media-logo.png';
 import threeline from './img/3Line.png';
@@ -104,11 +104,19 @@ const App = () => {
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
+    document.body.style.overflow = isMenuOpen ? 'auto' : 'hidden';
   };
 
   const handleLinkClick = () => {
     setIsMenuOpen(false);
+    document.body.style.overflow = 'auto';
   };
+
+  useEffect(() => {
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, []);
 
   return (
     <div className="App">
@@ -226,6 +234,12 @@ const App = () => {
           <div className="each-services-images">
             <img src={socialMedia} alt="" />
             <img src={corporateVideography} alt="" />
+            <ReactPlayer
+              url={'https://vimeo.com/790564414'}
+              height="200px"
+              width="330px"
+              controls={true}
+            />
             <img src={manOfGod} alt="" className="hide-mobile" />
           </div>
         </div>

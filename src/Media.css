@@ -5,6 +5,10 @@
     width: 100%;
   }
 
+  .logodark {
+    padding-left: 1rem;
+  }
+
   .navlinks {
     position: absolute;
     display: flex;

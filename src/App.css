@@ -44,12 +44,9 @@ body {
 
 h1,
 h2,
-h3 {
-  font-family: 'Gilroy-Heavy';
-}
-
+h3,
 h4 {
-  font-family: 'Gilroy-Regular';
+  font-family: 'Gilroy-Heavy';
 }
 
 h5 {
@@ -116,6 +113,7 @@ nav {
 .burger {
   cursor: pointer;
   display: none;
+  padding-right: 1rem;
 }
 
 .burger div {

@@ -19,6 +19,10 @@ footer {
   font-size: 3.2rem;
 }
 
+.footer-container h1 span {
+  font-family: 'Gilroy-Regular';
+}
+
 .footer-container h1 a {
   text-decoration: none;
   color: white;

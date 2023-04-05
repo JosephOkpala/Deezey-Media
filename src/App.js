@@ -206,15 +206,17 @@ const App = (props) => {
               autoPlay
               loop
               crossOrigin="anonymous"
-              poster={nipost}
+              // poster={nipost}
               aria-label="Video"
               src={hero}
               controlsList="nodownload"
               playsInline=""
               muted="muted"
               preload="none"
-              x-webkit-airplay="allow"
-            ></video>
+              style={{ backgroundColor: 'black' }}
+            >
+              <source src={hero} type="" />
+            </video>
             <div className="header-paragraph">
               <h2>
                 <div>
@@ -249,13 +251,11 @@ const App = (props) => {
               autoPlay
               loop
               crossOrigin="anonymous"
-              // poster={nipost}
               aria-label="Video"
               src={hero}
               controlsList="nodownload"
-              // playsInline
-              // preload="none"
-              // x-webkit-airplay="allow"
+              playsInline
+              preload="none"
               style={{ backgroundColor: 'black' }}
             ></video>
             <div className="header-paragraph">
@@ -289,14 +289,13 @@ const App = (props) => {
               autoPlay
               loop
               crossOrigin="anonymous"
-              poster={nipost}
               aria-label="Video"
               src={hero}
               controlsList="nodownload"
-              playsInline=""
+              playsInline
               muted="muted"
               preload="none"
-              x-webkit-airplay="allow"
+              style={{ backgroundColor: 'black' }}
             ></video>
             <div className="header-paragraph">
               <h2>
@@ -328,14 +327,13 @@ const App = (props) => {
               autoPlay
               loop
               crossOrigin="anonymous"
-              poster={nipost}
               aria-label="Video"
               src={hero}
               controlsList="nodownload"
-              playsInline=""
+              playsInline
               muted="muted"
               preload="none"
-              x-webkit-airplay="allow"
+              style={{ backgroundColor: 'black' }}
             ></video>
             <div className="header-paragraph">
               <h2>
@@ -368,14 +366,13 @@ const App = (props) => {
               autoPlay
               loop
               crossOrigin="anonymous"
-              poster={nipost}
               aria-label="Video"
               src={hero}
               controlsList="nodownload"
-              playsInline=""
+              playsInline
               muted="muted"
               preload="none"
-              x-webkit-airplay="allow"
+              style={{ backgroundColor: 'black' }}
             ></video>
             <div className="header-paragraph">
               <h2>

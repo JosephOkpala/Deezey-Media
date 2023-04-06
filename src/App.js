@@ -299,12 +299,8 @@ const App = (props) => {
             <div className="header-paragraph">
               <h2>
                 <div>
-                  <span className="each-service-span-text1">
-                    Unforgettable Memories And
-                  </span>
-                  <span className="each-service-span-text2">
-                    Experience That Lives On.
-                  </span>
+                  <span className="each-service-span-text1">Memories That</span>
+                  <span className="each-service-span-text2">Live On.</span>
                 </div>
               </h2>
               <p>
@@ -337,12 +333,8 @@ const App = (props) => {
             <div className="header-paragraph">
               <h2>
                 <div>
-                  <span className="each-service-span-text1">
-                    Extra-Spice That Brings
-                  </span>
-                  <span className="each-service-span-text2">
-                    Your Content To Life.
-                  </span>
+                  <span className="each-service-span-text1">Animate Your</span>
+                  <span className="each-service-span-text2">Message.</span>
                 </div>
               </h2>
               <p>
@@ -376,12 +368,8 @@ const App = (props) => {
             <div className="header-paragraph">
               <h2>
                 <div>
-                  <span className="each-service-span-text1">
-                    Helping You Create
-                  </span>
-                  <span className="each-service-span-text2">
-                    Your Unique Voice.
-                  </span>
+                  <span className="each-service-span-text1">Creating Your</span>
+                  <span className="each-service-span-text2">Unique Voice.</span>
                 </div>
               </h2>
               <p>
@@ -405,6 +393,7 @@ const App = (props) => {
               url="https://www.youtube.com/watch?v=_y_puKAziwA"
               width="100%"
               height="100%"
+              controls={true}
             />
           </div>
           <div>

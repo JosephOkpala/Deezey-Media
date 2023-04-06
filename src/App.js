@@ -233,12 +233,12 @@ const App = (props) => {
           <div className="each-services-images">
             <img src={socialMedia} alt="" />
             <img src={corporateVideography} alt="" />
-            <ReactPlayer
+            {/* <ReactPlayer
               url={'https://vimeo.com/790564414'}
               height="200px"
               width="330px"
               controls={true}
-            />
+            /> */}
             <img src={manOfGod} alt="" className="hide-mobile" />
           </div>
         </div>
@@ -395,6 +395,52 @@ const App = (props) => {
             <img src={emmanuell} alt="" />
             <img src={emmanuell} alt="" />
             <img src={emmanuell} alt="" className="hide-mobile" />
+          </div>
+        </div>
+      </section>
+      <section className="services-sectionn">
+        <div className="services-container">
+          <div>
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=_y_puKAziwA"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div>
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=dhACWK20iZE"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div>
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=Ft0gnao13ro&t=309s"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div>
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=mKHNX7Buug4"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div>
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=osDsbckcAgU&t=135s"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div>
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=W1KFmNda-VE&t=348s"
+              width="100%"
+              height="100%"
+            />
           </div>
         </div>
       </section>

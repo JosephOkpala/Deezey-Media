@@ -38,6 +38,7 @@ import socialMedia from './img/social-media.png';
 import corporateVideography from './img/corporate-videography.png';
 import manOfGod from './img/man-of-God.png';
 import directing from './img/Directing.png';
+import tvc from './img/TVC.png';
 import './Home.css';
 import './About.css';
 import './Services.css';
@@ -86,7 +87,7 @@ const Home = () => {
   );
 };
 
-const App = (props) => {
+const App = () => {
   const aboutus = useRef(null);
   const services = useRef(null);
   const team = useRef(null);
@@ -231,15 +232,13 @@ const App = (props) => {
             </div>
           </div>
           <div className="each-services-images">
-            <img src={socialMedia} alt="" />
-            <img src={corporateVideography} alt="" />
-            {/* <ReactPlayer
-              url={'https://vimeo.com/790564414'}
-              height="200px"
-              width="330px"
-              controls={true}
-            /> */}
-            <img src={manOfGod} alt="" className="hide-mobile" />
+            <img src={socialMedia} alt="social media image" />
+            <img src={corporateVideography} alt="corporate videography image" />
+            <img
+              src={manOfGod}
+              alt="man of god image"
+              className="hide-mobile"
+            />
           </div>
         </div>
 
@@ -276,9 +275,9 @@ const App = (props) => {
             </div>
           </div>
           <div className="each-services-images">
+            <img src={tvc} alt="" />
             <img src={josephh} alt="" />
-            <img src={josephh} alt="" />
-            <img src={directing} alt="" className="hide-mobile" />
+            <img src={directing} alt="directing" className="hide-mobile" />
           </div>
         </div>
 

@@ -31,14 +31,22 @@ import instagram from './img/instagram.png';
 import twitter from './img/twitter.png';
 import linkedin from './img/linkedin.png';
 import tiktok from './img/tik-tok.png';
-import emmanuell from './img/emmanuel-landscape.png';
 import josephh from './img/joseph-landscape.png';
 import hero from './img/hero.mp4';
-import socialMedia from './img/social-media.png';
-import corporateVideography from './img/corporate-videography.png';
+import covervideos from './img/covervideoss.mp4';
+import AfroZpodintro from './img/AfroZpodintro.mp4';
 import manOfGod from './img/man-of-God.png';
 import directing from './img/Directing.png';
-import tvc from './img/TVC.png';
+import afrozillenial from './img/afrozillenialpod.PNG';
+import whagit from './img/whagit.png';
+import dkh from './img/dkh.PNG';
+import olorumbi from './img/olorumbi.png';
+import valentinecwg from './img/valentinecwg.png';
+import mogbts from './img/mogbts.PNG';
+import whagittwo from './img/whagit2.png';
+import kuleandpay from './img/kuleandpay.PNG';
+import alafive from './img/ala5.png';
+import bapmasterclass from './img/bapmasterclass.png';
 import './Home.css';
 import './About.css';
 import './Services.css';
@@ -207,15 +215,13 @@ const App = () => {
               loop
               crossOrigin="anonymous"
               aria-label="Video"
-              src={hero}
+              src={covervideos}
               controlsList="nodownload"
               playsInline
               muted="muted"
               preload="none"
               style={{ backgroundColor: 'black' }}
-            >
-              <source src={hero} type="" />
-            </video>
+            ></video>
             <div className="header-paragraph">
               <h2>
                 <div>
@@ -232,13 +238,9 @@ const App = () => {
             </div>
           </div>
           <div className="each-services-images">
-            <img src={socialMedia} alt="social media image" />
-            <img src={corporateVideography} alt="corporate videography image" />
-            <img
-              src={manOfGod}
-              alt="man of god image"
-              className="hide-mobile"
-            />
+            <img src={kuleandpay} alt="Kule and Pay" />
+            <img src={bapmasterclass} alt="BAP MasterClass" />
+            <img src={manOfGod} alt="Man Of God" className="hide-mobile" />
           </div>
         </div>
 
@@ -275,9 +277,9 @@ const App = () => {
             </div>
           </div>
           <div className="each-services-images">
-            <img src={tvc} alt="" />
-            <img src={josephh} alt="" />
-            <img src={directing} alt="directing" className="hide-mobile" />
+            <img src={alafive} alt="Ausso Leadership Academy" />
+            <img src={valentinecwg} alt="cwg valentine" />
+            <img src={directing} alt="Mr Chef" className="hide-mobile" />
           </div>
         </div>
 
@@ -309,9 +311,13 @@ const App = () => {
             </div>
           </div>
           <div className="each-services-images">
-            <img src={emmanuell} alt="" />
-            <img src={emmanuell} alt="" />
-            <img src={emmanuell} alt="" className="hide-mobile" />
+            <img src={olorumbi} alt="Olorumbi" />
+            <img src={mogbts} alt="Man Of GOd" />
+            <img
+              src={dkh}
+              alt="death and the kings horsemen"
+              className="hide-mobile"
+            />
           </div>
         </div>
 
@@ -357,7 +363,7 @@ const App = () => {
               loop
               crossOrigin="anonymous"
               aria-label="Video"
-              src={hero}
+              src={AfroZpodintro}
               controlsList="nodownload"
               playsInline
               muted="muted"
@@ -379,9 +385,9 @@ const App = () => {
             </div>
           </div>
           <div className="each-services-images">
-            <img src={emmanuell} alt="" />
-            <img src={emmanuell} alt="" />
-            <img src={emmanuell} alt="" className="hide-mobile" />
+            <img src={whagittwo} alt="whagitPodcast" />
+            <img src={afrozillenial} alt="Afrozillenial Podcast" />
+            <img src={whagit} alt="Whagit Podcast" className="hide-mobile" />
           </div>
         </div>
       </section>
@@ -389,7 +395,7 @@ const App = () => {
         <div className="services-container">
           <div>
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=_y_puKAziwA"
+              url="https://youtu.be/LTK2pdIjz8s"
               width="100%"
               height="100%"
               controls={true}
@@ -397,35 +403,35 @@ const App = () => {
           </div>
           <div>
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=dhACWK20iZE"
+              url="https://youtu.be/ug3TobHCXeo"
               width="100%"
               height="100%"
             />
           </div>
           <div>
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=Ft0gnao13ro&t=309s"
+              url="https://youtu.be/zkJjIDJZhM0"
               width="100%"
               height="100%"
             />
           </div>
           <div>
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=mKHNX7Buug4"
+              url="https://youtu.be/f2qJvwIqRws"
               width="100%"
               height="100%"
             />
           </div>
           <div>
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=osDsbckcAgU&t=135s"
+              url="https://youtu.be/nPVAb0i2_iQ"
               width="100%"
               height="100%"
             />
           </div>
           <div>
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=W1KFmNda-VE&t=348s"
+              url="https://youtu.be/r9iTrUkdtKM"
               width="100%"
               height="100%"
             />
@@ -489,6 +495,7 @@ const App = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.7, type: 'spring' }}
           viewport={{ once: true }}
+          className="dorman"
         >
           <img src={dorman} alt="dorman logo" />
         </motion.div>
@@ -513,6 +520,7 @@ const App = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 1, type: 'spring' }}
           viewport={{ once: true }}
+          className="globus"
         >
           <img src={globus} alt="globus bank logo" />
         </motion.div>
@@ -665,7 +673,7 @@ const App = () => {
               <img src={timothy} alt="graphics designer profile" />
             </div>
             <h4>Joseph Timothy</h4>
-            <h5>Graphics Designer</h5>
+            <h5>Graphic Designer</h5>
           </motion.div>
         </div>
       </div>

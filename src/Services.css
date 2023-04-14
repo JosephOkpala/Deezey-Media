@@ -14,7 +14,7 @@ video {
   height: 70vh;
   width: 100%;
   object-fit: cover;
-  margin-top: 8rem;
+  /* margin-top: 8rem; */
   background: transparent;
   display: block;
   max-height: none;

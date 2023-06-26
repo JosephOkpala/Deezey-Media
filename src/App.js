@@ -31,7 +31,7 @@ import instagram from './img/instagram.png';
 import twitter from './img/twitter.png';
 import linkedin from './img/linkedin.png';
 import tiktok from './img/tik-tok.png';
-import animation from './img/animate1.png';
+import animation from './img/animation1.png';
 import hero from './img/hero.mp4';
 import covervideos from './img/covervideoss.mp4';
 import AfroZpodintro from './img/AfroZpodintro.mp4';

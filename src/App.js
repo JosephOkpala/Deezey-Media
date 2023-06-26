@@ -31,7 +31,7 @@ import instagram from './img/instagram.png';
 import twitter from './img/twitter.png';
 import linkedin from './img/linkedin.png';
 import tiktok from './img/tik-tok.png';
-import josephh from './img/joseph-landscape.png';
+import animation from './img/animate1.png';
 import hero from './img/hero.mp4';
 import covervideos from './img/covervideoss.mp4';
 import AfroZpodintro from './img/AfroZpodintro.mp4';
@@ -350,9 +350,9 @@ const App = () => {
             </div>
           </div>
           <div className="each-services-images">
-            <img src={josephh} alt="" />
-            <img src={josephh} alt="" />
-            <img src={josephh} alt="" className="hide-mobile" />
+            <img src={animation} alt="" />
+            <img src={animation} alt="" />
+            <img src={animation} alt="" className="hide-mobile" />
           </div>
         </div>
 

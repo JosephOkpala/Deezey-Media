@@ -246,7 +246,7 @@ const App = () => {
 
         <div className="services-section-div">
           <div className="vid">
-            <video
+            {/* <video
               autoPlay
               loop
               crossOrigin="anonymous"
@@ -257,7 +257,7 @@ const App = () => {
               muted="muted"
               preload="none"
               style={{ backgroundColor: 'black' }}
-            ></video>
+            ></video> */}
             <div className="header-paragraph">
               <h2>
                 <div>
@@ -285,7 +285,7 @@ const App = () => {
 
         <div className="services-section-div">
           <div className="vid">
-            <video
+            {/* <video
               autoPlay
               loop
               crossOrigin="anonymous"
@@ -296,7 +296,7 @@ const App = () => {
               muted="muted"
               preload="none"
               style={{ backgroundColor: 'black' }}
-            ></video>
+            ></video> */}
             <div className="header-paragraph">
               <h2>
                 <div>
@@ -323,7 +323,7 @@ const App = () => {
 
         <div className="services-section-div">
           <div className="vid">
-            <video
+            {/* <video
               autoPlay
               loop
               crossOrigin="anonymous"
@@ -334,7 +334,7 @@ const App = () => {
               muted="muted"
               preload="none"
               style={{ backgroundColor: 'black' }}
-            ></video>
+            ></video> */}
             <div className="header-paragraph">
               <h2>
                 <div>

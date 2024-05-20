@@ -1,0 +1,83 @@
+/*             Our Team Styles START              */
+
+.our-team {
+  margin-bottom: 6rem;
+  position: relative;
+  background-color: white;
+  max-width: 2000px;
+  margin: 0 auto 6rem auto;
+}
+
+.our-team-text {
+  width: 90%;
+  margin: 0 auto 4rem auto;
+}
+
+.our-team-text h3 {
+  font-size: 3.6rem;
+  font-weight: 900;
+}
+
+.our-team-text p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.our-team-grid {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.each-team {
+  cursor: pointer;
+}
+
+.color-overlay-container img {
+  width: 80%;
+  position: relative;
+}
+
+.color-overlay-container {
+  position: relative;
+}
+
+.color-overlay-container::after {
+  content: '';
+  position: absolute;
+  top: -0.5px;
+  left: 10%;
+  width: 80%;
+  height: 98.9%;
+  background-color: rgba(248, 51, 51, 0.8);
+  mix-blend-mode: multiply;
+  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+}
+
+.color-overlay-container:hover::after {
+  background-color: #ffffff;
+}
+
+.each-team h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.each-team h5 {
+  margin-bottom: 3.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.color-overlay-container {
+  position: relative;
+  width: 100%;
+}
+/*             Our Team Styles END              */

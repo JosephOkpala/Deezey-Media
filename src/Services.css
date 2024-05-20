@@ -1,0 +1,154 @@
+/*      services page style START      */
+
+section {
+  position: relative;
+  margin-bottom: 10rem;
+}
+
+.services-section-div {
+  margin: 0 auto 10rem auto;
+  max-width: 2000px;
+}
+
+video {
+  height: 70vh;
+  width: 100%;
+  object-fit: cover;
+  /* margin-top: 8rem; */
+  background: transparent;
+  display: block;
+  max-height: none;
+  max-width: none;
+  visibility: visible;
+}
+
+.header-paragraph {
+  position: absolute;
+  bottom: -15rem;
+}
+
+.vid {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.header-paragraph h2 {
+  color: black;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  font-size: 3.8rem;
+  font-weight: 900;
+  margin: 0 0 0.7rem 2rem;
+  line-height: 1.1;
+}
+
+.header-paragraph p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 0 5rem 3rem;
+  line-height: 1.5;
+}
+
+.each-services-images {
+  position: relative;
+  display: inline-block;
+  margin-top: 15rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.each-services-images img {
+  width: 33.3%;
+}
+
+.each-service-span-text1 {
+  display: block;
+}
+
+.each-service-span-text2 {
+  display: block;
+}
+
+@media (max-width: 940px) {
+  .header-paragraph h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-paragraph h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 625px) {
+  .header-paragraph {
+    position: absolute;
+    bottom: -13rem;
+  }
+
+  .header-paragraph h2 {
+    font-size: 2.5rem;
+    margin: 0 0 0.7rem 1rem;
+  }
+
+  .header-paragraph p {
+    margin: 0 0 5rem 2rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .header-paragraph h2 {
+    font-size: 1.8rem;
+  }
+
+  .header-paragraph p {
+    font-size: 1rem;
+  }
+}
+
+/*      services page style END      */
+
+.services-sectionn {
+  background-color: black;
+  padding: 4rem 0;
+  height: 100vh;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+  width: 100%;
+}
+
+.services-container > div {
+  width: 100%;
+  height: 40vh;
+}
+
+@media (max-width: 767px) {
+  .services-sectionn {
+    background-color: black;
+    padding: 4rem 1rem;
+    height: 140vh;
+  }
+
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .services-sectionn {
+    height: 280vh;
+  }
+
+  .services-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}

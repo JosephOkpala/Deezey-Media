@@ -1,0 +1,129 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: red;
+  color: white;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  ::selection {
+    background-color: red;
+    color: white;
+  }
+}
+
+@font-face {
+  font-family: 'Gilroy-Heavy';
+  src: local('Gilroy-Heavy'), url('./fonts/Gilroy-Heavy.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: local('Gilroy-Regular'),
+    url('./fonts/Gilroy-Regular.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: local('Gilroy-Medium'), url('./fonts/Gilroy-Medium.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Gilroy-Heavy', 'Helvetica';
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Gilroy-Heavy';
+}
+
+h5 {
+  font-family: 'Gilroy-Medium';
+}
+
+p {
+  font-family: 'Gilroy-Regular';
+}
+
+li {
+  font-family: 'Gilroy-Regular';
+}
+
+nav {
+  position: relative;
+  width: 95%;
+  max-width: 1600px;
+  height: 13vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 1);
+  z-index: 2;
+}
+
+.nav-shadow {
+  width: 100%;
+  height: 13vh;
+  background-color: hsla(0, 0%, 100%, 1);
+  box-shadow: -1px 7px 5px -4px rgba(35, 35, 41, 0.2);
+  -webkit-box-shadow: -1px 7px 5px -4px rgba(35, 35, 41, 0.2);
+  -moz-box-shadow: -1px 7px 5px -4px rgba(35, 35, 41, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  /* border: 2px solid red; */
+}
+
+.logodark {
+  width: 3.5rem;
+}
+
+.navlinks ul li {
+  list-style: none;
+  color: black;
+  display: inline;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+}
+
+.navlinks ul li:hover {
+  color: red;
+}
+
+.navlinks ul li:not(:last-child) {
+  margin-right: 3.5rem;
+}
+
+.burger {
+  cursor: pointer;
+  display: none;
+  padding-right: 1rem;
+}
+
+.burger div {
+  width: 2.2rem;
+  height: 0.2rem;
+  background-color: hsla(240, 8%, 15%, 1);
+  border-radius: 20px;
+  transition: 0.5s ease;
+}
+
+.burger div:not(:last-child) {
+  margin-bottom: 0.3rem;
+}

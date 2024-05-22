@@ -59,7 +59,8 @@ video {
 }
 
 .each-services-images img {
-  width: 33.3%;
+  /* width: 33.3%; */
+  width: 100%;
 }
 
 .each-service-span-text1 {

@@ -1,60 +1,63 @@
-import { useEffect, useRef, useState } from 'react';
-import ReactPlayer from 'react-player';
-import { motion } from 'framer-motion';
-import logodark from './img/Deezey-media-logo.png';
-import threeline from './img/3Line.png';
-import ala from './img/ala_logo.png';
-import bap from './img/BAP.png';
-import chevron from './img/Chevron.png';
-import chickenrepublic from './img/chickenrepublic.png';
-import cwg from './img/CWG.png';
-import dorman from './img/dorman.png';
-import fincra from './img/fincra.png';
-import fmn from './img/FMN.png';
-import globus from './img/globusbank.png';
-import ihs from './img/ihs.png';
-import mrchef from './img/MrChef.png';
-import sao from './img/SAO.png';
-import unitybank from './img/unitybank.png';
-import youverify from './img/youverify.png';
-import emmanuel from './img/emmanuel.png';
-import ronald from './img/ronald.png';
-import emordi from './img/emordi.png';
-import precious from './img/precious.png';
-import drone from './img/drone-guy.png';
-import ebuka from './img/ebuka.png';
-import joseph from './img/joseph.png';
-import timothy from './img/timothy.png';
-import deezey from './img/Deezey-Media-Logo-footer.png';
-import facebook from './img/facebook.png';
-import instagram from './img/instagram.png';
-import twitter from './img/twitter.png';
-import linkedin from './img/linkedin.png';
-import tiktok from './img/tik-tok.png';
-import animation from './img/animation1.png';
-import hero from './img/hero.mp4';
-import covervideos from './img/covervideoss.mp4';
-import AfroZpodintro from './img/AfroZpodintro.mp4';
-import manOfGod from './img/man-of-God.png';
-import directing from './img/Directing.png';
-import afrozillenial from './img/afrozillenialpod.PNG';
-import whagit from './img/whagit.png';
-import dkh from './img/dkh.PNG';
-import olorumbi from './img/olorumbi.png';
-import valentinecwg from './img/valentinecwg.png';
-import mogbts from './img/mogbts.PNG';
-import whagittwo from './img/whagit2.png';
-import kuleandpay from './img/kuleandpay.PNG';
-import alafive from './img/ala5.png';
-import bapmasterclass from './img/bapmasterclass.png';
-import './Home.css';
-import './About.css';
-import './Services.css';
-import './Clients.css';
-import './Team.css';
-import './Footer.css';
-import './App.css';
-import './Media.css';
+import { useEffect, useRef, useState } from "react";
+import ReactPlayer from "react-player";
+import { motion } from "framer-motion";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import "swiper/css";
+import logodark from "./img/Deezey-media-logo.png";
+import threeline from "./img/3Line.png";
+import ala from "./img/ala_logo.png";
+import bap from "./img/BAP.png";
+import chevron from "./img/Chevron.png";
+import chickenrepublic from "./img/chickenrepublic.png";
+import cwg from "./img/CWG.png";
+import dorman from "./img/dorman.png";
+import fincra from "./img/fincra.png";
+import fmn from "./img/FMN.png";
+import globus from "./img/globusbank.png";
+import ihs from "./img/ihs.png";
+import mrchef from "./img/MrChef.png";
+import sao from "./img/SAO.png";
+import unitybank from "./img/unitybank.png";
+import youverify from "./img/youverify.png";
+import emmanuel from "./img/emmanuel.png";
+import ronald from "./img/ronald.png";
+import emordi from "./img/emordi.png";
+import precious from "./img/precious.png";
+import drone from "./img/drone-guy.png";
+import ebuka from "./img/ebuka.png";
+import joseph from "./img/joseph.png";
+import timothy from "./img/timothy.png";
+import deezey from "./img/Deezey-Media-Logo-footer.png";
+import facebook from "./img/facebook.png";
+import instagram from "./img/instagram.png";
+import twitter from "./img/twitter.png";
+import linkedin from "./img/linkedin.png";
+import tiktok from "./img/tik-tok.png";
+import animation from "./img/animation1.png";
+import hero from "./img/hero.mp4";
+import covervideos from "./img/covervideoss.mp4";
+import AfroZpodintro from "./img/AfroZpodintro.mp4";
+import manOfGod from "./img/man-of-God.png";
+import directing from "./img/Directing.png";
+import afrozillenial from "./img/afrozillenialpod.PNG";
+import whagit from "./img/whagit.png";
+import dkh from "./img/dkh.PNG";
+import olorumbi from "./img/olorumbi.png";
+import valentinecwg from "./img/valentinecwg.png";
+import mogbts from "./img/mogbts.PNG";
+import whagittwo from "./img/whagit2.png";
+import kuleandpay from "./img/kuleandpay.PNG";
+import alafive from "./img/ala5.png";
+import bapmasterclass from "./img/bapmasterclass.png";
+import "./Home.css";
+import "./About.css";
+import "./Services.css";
+import "./Clients.css";
+import "./Team.css";
+import "./Footer.css";
+import "./App.css";
+import "./Media.css";
 
 const Home = () => {
   return (
@@ -64,12 +67,12 @@ const Home = () => {
           className="logodark2"
           src={logodark}
           alt=""
-          style={{ textAlign: 'center' }}
+          style={{ textAlign: "center" }}
         />
         <motion.h1
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ type: 'spring' }}
+          transition={{ type: "spring" }}
           viewport={{ once: true }}
         >
           Hello. We are Deezey Media.
@@ -77,7 +80,7 @@ const Home = () => {
         <motion.p
           initial={{ y: 15, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.2, type: 'spring' }}
+          transition={{ delay: 0.2, type: "spring" }}
           viewport={{ once: true }}
         >
           We create new media content for brands and individuals.
@@ -85,7 +88,7 @@ const Home = () => {
         <motion.p
           initial={{ y: 15, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.4, type: 'spring' }}
+          transition={{ delay: 0.4, type: "spring" }}
           viewport={{ once: true }}
         >
           Explore our expanding content.
@@ -104,7 +107,7 @@ const App = () => {
   const scrollToSection = (elementRef) => {
     window.scrollTo({
       top: elementRef.current.offsetTop,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   };
 
@@ -112,17 +115,17 @@ const App = () => {
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
-    document.body.style.overflow = isMenuOpen ? 'auto' : 'hidden';
+    document.body.style.overflow = isMenuOpen ? "auto" : "hidden";
   };
 
   const handleLinkClick = () => {
     setIsMenuOpen(false);
-    document.body.style.overflow = 'auto';
+    document.body.style.overflow = "auto";
   };
 
   useEffect(() => {
     return () => {
-      document.body.style.overflow = 'auto';
+      document.body.style.overflow = "auto";
     };
   }, []);
 
@@ -132,16 +135,16 @@ const App = () => {
         <nav>
           <img className="logodark" src={logodark} alt="Deezey media logo" />
           <div className="burger" onClick={handleMenuToggle}>
-            <div className={`line ${isMenuOpen ? 'open' : ''}`}></div>
-            <div className={`line ${isMenuOpen ? 'open' : ''}`}></div>
-            <div className={`line ${isMenuOpen ? 'open' : ''}`}></div>
+            <div className={`line ${isMenuOpen ? "open" : ""}`}></div>
+            <div className={`line ${isMenuOpen ? "open" : ""}`}></div>
+            <div className={`line ${isMenuOpen ? "open" : ""}`}></div>
           </div>
-          <div className={`navlinks ${isMenuOpen ? 'open' : ''}`}>
+          <div className={`navlinks ${isMenuOpen ? "open" : ""}`}>
             <ul>
               <motion.li
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.1, type: 'spring' }}
+                transition={{ delay: 0.1, type: "spring" }}
                 onClick={() => {
                   handleLinkClick();
                   scrollToSection(aboutus);
@@ -152,7 +155,7 @@ const App = () => {
               <motion.li
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.2, type: 'spring' }}
+                transition={{ delay: 0.2, type: "spring" }}
                 onClick={() => {
                   handleLinkClick();
                   scrollToSection(services);
@@ -163,7 +166,7 @@ const App = () => {
               <motion.li
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.45, type: 'spring' }}
+                transition={{ delay: 0.45, type: "spring" }}
                 onClick={() => {
                   handleLinkClick();
                   scrollToSection(team);
@@ -174,7 +177,7 @@ const App = () => {
               <motion.li
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.54, type: 'spring' }}
+                transition={{ delay: 0.54, type: "spring" }}
                 onClick={() => {
                   handleLinkClick();
                   scrollToSection(footer);
@@ -193,7 +196,7 @@ const App = () => {
             <motion.h2
               initial={{ y: 40 }}
               whileInView={{ y: 0 }}
-              transition={{ type: 'spring' }}
+              transition={{ type: "spring" }}
               viewport={{ once: true }}
             >
               Why we are awesome!
@@ -220,7 +223,7 @@ const App = () => {
               playsInline
               muted="muted"
               preload="none"
-              style={{ backgroundColor: 'black' }}
+              style={{ backgroundColor: "black" }}
             ></video>
             <div className="header-paragraph">
               <h2>
@@ -238,15 +241,33 @@ const App = () => {
             </div>
           </div>
           <div className="each-services-images">
-            <img src={kuleandpay} alt="Kule and Pay" />
-            <img src={bapmasterclass} alt="BAP MasterClass" />
-            <img src={manOfGod} alt="Man Of God" className="hide-mobile" />
+            <Swiper
+              slidesPerView={3}
+              navigation
+              pagination={{ clickable: true }}
+              scrollbar={{ draggable: true }}
+              onSlideChange={() => console.log("slide change")}
+              onSwiper={(swiper) => console.log(swiper)}
+            >
+              <SwiperSlide>
+                <img src={kuleandpay} alt="Kule and Pay" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={bapmasterclass} alt="BAP MasterClass" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={manOfGod} alt="Man Of God" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={manOfGod} alt="Man Of God" className="hide-mobile" />
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
 
         <div className="services-section-div">
           <div className="vid">
-            {/* <video
+            <video
               autoPlay
               loop
               crossOrigin="anonymous"
@@ -256,8 +277,8 @@ const App = () => {
               playsInline
               muted="muted"
               preload="none"
-              style={{ backgroundColor: 'black' }}
-            ></video> */}
+              style={{ backgroundColor: "black" }}
+            ></video>
             <div className="header-paragraph">
               <h2>
                 <div>
@@ -265,7 +286,7 @@ const App = () => {
                     Delivering The Best
                   </span>
                   <span className="each-service-span-text2">
-                    {' '}
+                    {" "}
                     Value Uniquely.
                   </span>
                 </div>
@@ -277,15 +298,37 @@ const App = () => {
             </div>
           </div>
           <div className="each-services-images">
-            <img src={alafive} alt="Ausso Leadership Academy" />
-            <img src={valentinecwg} alt="cwg valentine" />
-            <img src={directing} alt="Mr Chef" className="hide-mobile" />
+            <Swiper
+              slidesPerView={3}
+              navigation
+              pagination={{ clickable: true }}
+              scrollbar={{ draggable: true }}
+              onSlideChange={() => console.log("slide change")}
+              onSwiper={(swiper) => console.log(swiper)}
+            >
+              <SwiperSlide>
+                <img src={alafive} alt="Ausso Leadership Academy" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={valentinecwg} alt="cwg valentine" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={directing} alt="Mr Chef" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src={valentinecwg}
+                  alt="cwg valentine"
+                  className="hide-mobile"
+                />
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
 
         <div className="services-section-div">
           <div className="vid">
-            {/* <video
+            <video
               autoPlay
               loop
               crossOrigin="anonymous"
@@ -295,8 +338,8 @@ const App = () => {
               playsInline
               muted="muted"
               preload="none"
-              style={{ backgroundColor: 'black' }}
-            ></video> */}
+              style={{ backgroundColor: "black" }}
+            ></video>
             <div className="header-paragraph">
               <h2>
                 <div>
@@ -311,19 +354,33 @@ const App = () => {
             </div>
           </div>
           <div className="each-services-images">
-            <img src={olorumbi} alt="Olorumbi" />
-            <img src={mogbts} alt="Man Of GOd" />
-            <img
-              src={dkh}
-              alt="death and the kings horsemen"
-              className="hide-mobile"
-            />
+            <Swiper
+              slidesPerView={3}
+              navigation
+              pagination={{ clickable: true }}
+              scrollbar={{ draggable: true }}
+              onSlideChange={() => console.log("slide change")}
+              onSwiper={(swiper) => console.log(swiper)}
+            >
+              <SwiperSlide>
+                <img src={olorumbi} alt="Olorumbi" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={mogbts} alt="Man Of God" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={dkh} alt="death and the kings horsemen" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={mogbts} alt="Man Of God" className="hide-mobile" />
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
 
         <div className="services-section-div">
           <div className="vid">
-            {/* <video
+            <video
               autoPlay
               loop
               crossOrigin="anonymous"
@@ -333,8 +390,8 @@ const App = () => {
               playsInline
               muted="muted"
               preload="none"
-              style={{ backgroundColor: 'black' }}
-            ></video> */}
+              style={{ backgroundColor: "black" }}
+            ></video>
             <div className="header-paragraph">
               <h2>
                 <div>
@@ -350,9 +407,27 @@ const App = () => {
             </div>
           </div>
           <div className="each-services-images">
-            <img src={animation} alt="" />
-            <img src={animation} alt="" />
-            <img src={animation} alt="" className="hide-mobile" />
+            <Swiper
+              slidesPerView={3}
+              navigation
+              pagination={{ clickable: true }}
+              scrollbar={{ draggable: true }}
+              onSlideChange={() => console.log("slide change")}
+              onSwiper={(swiper) => console.log(swiper)}
+            >
+              <SwiperSlide>
+                <img src={animation} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={animation} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={animation} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={animation} alt="" className="hide-mobile" />
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
 
@@ -368,7 +443,7 @@ const App = () => {
               playsInline
               muted="muted"
               preload="none"
-              style={{ backgroundColor: 'black' }}
+              style={{ backgroundColor: "black" }}
             ></video>
             <div className="header-paragraph">
               <h2>
@@ -385,9 +460,31 @@ const App = () => {
             </div>
           </div>
           <div className="each-services-images">
-            <img src={whagittwo} alt="whagitPodcast" />
-            <img src={afrozillenial} alt="Afrozillenial Podcast" />
-            <img src={whagit} alt="Whagit Podcast" className="hide-mobile" />
+            <Swiper
+              slidesPerView={3}
+              navigation
+              pagination={{ clickable: true }}
+              scrollbar={{ draggable: true }}
+              onSlideChange={() => console.log("slide change")}
+              onSwiper={(swiper) => console.log(swiper)}
+            >
+              <SwiperSlide>
+                <img src={whagittwo} alt="whagitPodcast" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={afrozillenial} alt="Afrozillenial Podcast" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={whagit} alt="Whagit Podcast" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src={whagit}
+                  alt="Whagit Podcast"
+                  className="hide-mobile"
+                />
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
       </section>
@@ -445,7 +542,7 @@ const App = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.1, type: 'spring' }}
+          transition={{ delay: 0.1, type: "spring" }}
           viewport={{ once: true }}
         >
           <img src={youverify} alt="youverify logo" />
@@ -453,7 +550,7 @@ const App = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.2, type: 'spring' }}
+          transition={{ delay: 0.2, type: "spring" }}
           viewport={{ once: true }}
         >
           <img src={ala} alt="ala logo" />
@@ -461,7 +558,7 @@ const App = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.3, type: 'spring' }}
+          transition={{ delay: 0.3, type: "spring" }}
           viewport={{ once: true }}
         >
           <img src={bap} alt="Bolanle Austen Peters logo" />
@@ -469,7 +566,7 @@ const App = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.4, type: 'spring' }}
+          transition={{ delay: 0.4, type: "spring" }}
           viewport={{ once: true }}
         >
           <img src={chevron} alt="chevron logo" />
@@ -477,7 +574,7 @@ const App = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.5, type: 'spring' }}
+          transition={{ delay: 0.5, type: "spring" }}
           viewport={{ once: true }}
         >
           <img src={chickenrepublic} alt="chicken republic logo" />
@@ -485,7 +582,7 @@ const App = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.6, type: 'spring' }}
+          transition={{ delay: 0.6, type: "spring" }}
           viewport={{ once: true }}
         >
           <img src={cwg} alt="CWG logo" />
@@ -493,7 +590,7 @@ const App = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.7, type: 'spring' }}
+          transition={{ delay: 0.7, type: "spring" }}
           viewport={{ once: true }}
           className="dorman"
         >
@@ -502,7 +599,7 @@ const App = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.8, type: 'spring' }}
+          transition={{ delay: 0.8, type: "spring" }}
           viewport={{ once: true }}
         >
           <img src={fincra} alt="fincra logo" />
@@ -510,7 +607,7 @@ const App = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.9, type: 'spring' }}
+          transition={{ delay: 0.9, type: "spring" }}
           viewport={{ once: true }}
         >
           <img src={fmn} alt="fmn logo" />
@@ -518,7 +615,7 @@ const App = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 1, type: 'spring' }}
+          transition={{ delay: 1, type: "spring" }}
           viewport={{ once: true }}
           className="globus"
         >
@@ -527,7 +624,7 @@ const App = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 1.1, type: 'spring' }}
+          transition={{ delay: 1.1, type: "spring" }}
           viewport={{ once: true }}
         >
           <img src={ihs} alt="ihs logo" />
@@ -535,7 +632,7 @@ const App = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 1.2, type: 'spring' }}
+          transition={{ delay: 1.2, type: "spring" }}
           viewport={{ once: true }}
         >
           <img src={mrchef} alt="mrchef logo" />
@@ -543,7 +640,7 @@ const App = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 1.25, type: 'spring' }}
+          transition={{ delay: 1.25, type: "spring" }}
           viewport={{ once: true }}
         >
           <img src={sao} alt="sao logo" />
@@ -551,7 +648,7 @@ const App = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 1.3, type: 'spring' }}
+          transition={{ delay: 1.3, type: "spring" }}
           viewport={{ once: true }}
         >
           <img src={unitybank} alt="unitybank logo" />
@@ -570,7 +667,7 @@ const App = () => {
             className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.1, type: 'spring' }}
+            transition={{ delay: 0.1, type: "spring" }}
             viewport={{ once: true }}
           >
             <div className="color-overlay-container">
@@ -587,7 +684,7 @@ const App = () => {
             className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.2, type: 'spring' }}
+            transition={{ delay: 0.2, type: "spring" }}
             viewport={{ once: true }}
           >
             <div className="color-overlay-container">
@@ -600,7 +697,7 @@ const App = () => {
             className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.3, type: 'spring' }}
+            transition={{ delay: 0.3, type: "spring" }}
             viewport={{ once: true }}
           >
             <div className="color-overlay-container">
@@ -613,7 +710,7 @@ const App = () => {
             className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.4, type: 'spring' }}
+            transition={{ delay: 0.4, type: "spring" }}
             viewport={{ once: true }}
           >
             <div className="color-overlay-container">
@@ -627,7 +724,7 @@ const App = () => {
             className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.5, type: 'spring' }}
+            transition={{ delay: 0.5, type: "spring" }}
             viewport={{ once: true }}
           >
             <div className="color-overlay-container">
@@ -640,7 +737,7 @@ const App = () => {
             className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.6, type: 'spring' }}
+            transition={{ delay: 0.6, type: "spring" }}
             viewport={{ once: true }}
           >
             <div className="color-overlay-container">
@@ -653,7 +750,7 @@ const App = () => {
             className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.7, type: 'spring' }}
+            transition={{ delay: 0.7, type: "spring" }}
             viewport={{ once: true }}
           >
             <div className="color-overlay-container">
@@ -666,7 +763,7 @@ const App = () => {
             className="each-team"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.8, type: 'spring' }}
+            transition={{ delay: 0.8, type: "spring" }}
             viewport={{ once: true }}
           >
             <div className="color-overlay-container">
@@ -680,9 +777,9 @@ const App = () => {
       <footer className="footer" ref={footer}>
         <div className="footer-container">
           <motion.h1>
-            <span style={{ fontWeight: '300' }}>Ready to get Started?</span>
+            <span style={{ fontWeight: "300" }}>Ready to get Started?</span>
             <motion.a href="mailto:deezeymedia@gmail.com">
-              {' '}
+              {" "}
               Get in touch.
             </motion.a>
           </motion.h1>

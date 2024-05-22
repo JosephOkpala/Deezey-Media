@@ -129,10 +129,10 @@
 
 @media (max-width: 950px) {
   .each-services-images img {
-    width: 50%;
+    width: 100%;
   }
   .hide-mobile {
-    display: none;
+    /* display: none; */
   }
 }
 

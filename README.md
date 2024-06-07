@@ -10,7 +10,6 @@ Deezey Media is a versatile media company that creates content for brands and in
 <li>HTML5</li>
 <li>CSS3</li>
 <li>Framer Motion</li>
-<li>CSS3</li>
 <li>Firebase</li>
 <li>Namecheap</li>
 </ul>

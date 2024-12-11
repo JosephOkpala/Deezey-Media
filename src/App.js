@@ -770,7 +770,7 @@ const App = () => {
               <img src={timothy} alt="graphics designer profile" />
             </div>
             <h4>Joseph Timothy</h4>
-            <h5>Graphic Designer</h5>
+            <h5>Video Editorr</h5>
           </motion.div>
         </div>
       </div>
